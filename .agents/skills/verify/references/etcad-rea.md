@@ -21,5 +21,6 @@
 | 文件交换 | 浏览器下载和文件导入控件 | JSON 内容读回、SVG 实际渲染、导入后 reload |
 | 异常处理 | 同一界面 | 侧缝错误阻止送审、坏 JSON 不改变当前项目 |
 | REA 安装与原生调查 | 注册配置启动的 stdio MCP 服务 | initialize/tools/list/tools/call、目标 hash、provider、Evidence 和清理回执；见 [原生调查配方](rea-native.md) |
+| 原版 WASM 兼容实验 | 原 EXE 在浏览器中的真实窗口 | 菜单、打开、绘图和文件往返；当前 FAIL，见 [浏览器兼容配方](rea-wasm.md) |
 
 复制来源：`liush2yuxjtu/dot-pi@924bf755028d6b0fc6096c3fcf4d9c97f87a7693` 的 `agent/skills/verify/`。原有 skill、references 和 evals 原样保留；本文件为本项目补充操作路径。文件存在不代表注册了原生 `/verify` 命令。

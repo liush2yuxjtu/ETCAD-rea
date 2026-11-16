@@ -16,6 +16,7 @@
   "projectAdditions": [
     "references/etcad-rea.md",
     "references/rea-native.md",
+    "references/rea-wasm.md",
     "SOURCE.json"
   ]
 }

@@ -1,0 +1,4266 @@
+{
+  "sampleSha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+  "parentResourceEvidenceId": "ev_e537a92dd0cfa81ad9e6dd6e1ce9bb3a299381b553211ab05a1ca1b0c7be12ab",
+  "scope": "Supplementary static Windows MENU decoding, not a claim that every command was driven or is enabled in the learning edition.",
+  "menuItemCount": 326,
+  "uniqueCommandCount": 230,
+  "commands": [
+    {
+      "commandId": 57600,
+      "commandHex": "0xe100",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "新建文档\tCtrl+N",
+          "fileOffset": 4076196
+        }
+      ]
+    },
+    {
+      "commandId": 57601,
+      "commandHex": "0xe101",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "打开文档...\tCtrl+O",
+          "fileOffset": 4076224
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "打开\tCtrl+O",
+          "fileOffset": 4076684
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "打开\tCtrl+O",
+          "fileOffset": 4078256
+        }
+      ]
+    },
+    {
+      "commandId": 57606,
+      "commandHex": "0xe106",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "打印设置(&R)...",
+          "fileOffset": 4076264
+        }
+      ]
+    },
+    {
+      "commandId": 57665,
+      "commandHex": "0xe141",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "退出系统",
+          "fileOffset": 4076298
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "退出系统",
+          "fileOffset": 4076932
+        }
+      ]
+    },
+    {
+      "commandId": 59392,
+      "commandHex": "0xe800",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "工具条",
+          "fileOffset": 4076320
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "工具条",
+          "fileOffset": 4077058
+        }
+      ]
+    },
+    {
+      "commandId": 59393,
+      "commandHex": "0xe801",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "状态条",
+          "fileOffset": 4076332
+        }
+      ]
+    },
+    {
+      "commandId": 57664,
+      "commandHex": "0xe140",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 128
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "About...",
+          "fileOffset": 4076352
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "关于ETCOM...",
+          "fileOffset": 4080636
+        }
+      ]
+    },
+    {
+      "commandId": 32770,
+      "commandHex": "0x8002",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 130
+          },
+          "ancestors": [
+            "DLL消息"
+          ],
+          "label": "片改变消息",
+          "fileOffset": 4076626
+        }
+      ]
+    },
+    {
+      "commandId": 32774,
+      "commandHex": "0x8006",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 130
+          },
+          "ancestors": [
+            "DLL消息"
+          ],
+          "label": "DLL消息",
+          "fileOffset": 4076642
+        }
+      ]
+    },
+    {
+      "commandId": 33414,
+      "commandHex": "0x8286",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 130
+          },
+          "ancestors": [
+            "DLL消息"
+          ],
+          "label": "计算器",
+          "fileOffset": 4076658
+        }
+      ]
+    },
+    {
+      "commandId": 33919,
+      "commandHex": "0x847f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "1/2",
+          "fileOffset": 4076392
+        }
+      ]
+    },
+    {
+      "commandId": 33915,
+      "commandHex": "0x847b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "1/4",
+          "fileOffset": 4076404
+        }
+      ]
+    },
+    {
+      "commandId": 33923,
+      "commandHex": "0x8483",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "3/4",
+          "fileOffset": 4076416
+        }
+      ]
+    },
+    {
+      "commandId": 33913,
+      "commandHex": "0x8479",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "1/8",
+          "fileOffset": 4076428
+        }
+      ]
+    },
+    {
+      "commandId": 33917,
+      "commandHex": "0x847d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "3/8",
+          "fileOffset": 4076440
+        }
+      ]
+    },
+    {
+      "commandId": 33921,
+      "commandHex": "0x8481",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "5/8",
+          "fileOffset": 4076452
+        }
+      ]
+    },
+    {
+      "commandId": 33925,
+      "commandHex": "0x8485",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "7/8",
+          "fileOffset": 4076464
+        }
+      ]
+    },
+    {
+      "commandId": 33927,
+      "commandHex": "0x8487",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": ".",
+          "fileOffset": 4076476
+        }
+      ]
+    },
+    {
+      "commandId": 33912,
+      "commandHex": "0x8478",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "1/16",
+          "fileOffset": 4076484
+        }
+      ]
+    },
+    {
+      "commandId": 33914,
+      "commandHex": "0x847a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "3/16",
+          "fileOffset": 4076498
+        }
+      ]
+    },
+    {
+      "commandId": 33916,
+      "commandHex": "0x847c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "5/16",
+          "fileOffset": 4076512
+        }
+      ]
+    },
+    {
+      "commandId": 33918,
+      "commandHex": "0x847e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "7/16",
+          "fileOffset": 4076526
+        }
+      ]
+    },
+    {
+      "commandId": 33920,
+      "commandHex": "0x8480",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "9/16",
+          "fileOffset": 4076540
+        }
+      ]
+    },
+    {
+      "commandId": 33922,
+      "commandHex": "0x8482",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "11/16",
+          "fileOffset": 4076554
+        }
+      ]
+    },
+    {
+      "commandId": 33924,
+      "commandHex": "0x8484",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "13/16",
+          "fileOffset": 4076570
+        }
+      ]
+    },
+    {
+      "commandId": 33926,
+      "commandHex": "0x8486",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 173
+          },
+          "ancestors": [
+            "英寸菜单"
+          ],
+          "label": "15/16",
+          "fileOffset": 4076586
+        }
+      ]
+    },
+    {
+      "commandId": 33267,
+      "commandHex": "0x81f3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "双文档拷贝",
+          "fileOffset": 4076714
+        }
+      ]
+    },
+    {
+      "commandId": 33377,
+      "commandHex": "0x8261",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "回到文档拷贝状态",
+          "fileOffset": 4076730
+        }
+      ]
+    },
+    {
+      "commandId": 33327,
+      "commandHex": "0x822f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件",
+            "打开图片文件"
+          ],
+          "label": "调入底图",
+          "fileOffset": 4076774
+        }
+      ]
+    },
+    {
+      "commandId": 33328,
+      "commandHex": "0x8230",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件",
+            "打开图片文件"
+          ],
+          "label": "关闭底图",
+          "fileOffset": 4076788
+        }
+      ]
+    },
+    {
+      "commandId": 34094,
+      "commandHex": "0x852e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件",
+            "打开图片文件"
+          ],
+          "label": "打开款式文件图",
+          "fileOffset": 4076802
+        }
+      ]
+    },
+    {
+      "commandId": 34103,
+      "commandHex": "0x8537",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件",
+            "Office文件"
+          ],
+          "label": "打开WORD文件",
+          "fileOffset": 4076848
+        }
+      ]
+    },
+    {
+      "commandId": 34104,
+      "commandHex": "0x8538",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件",
+            "Office文件"
+          ],
+          "label": "打开Excel文档",
+          "fileOffset": 4076870
+        }
+      ]
+    },
+    {
+      "commandId": 34144,
+      "commandHex": "0x8560",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "ET视频播放",
+          "fileOffset": 4076894
+        }
+      ]
+    },
+    {
+      "commandId": 33249,
+      "commandHex": "0x81e1",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "文件"
+          ],
+          "label": "系统属性",
+          "fileOffset": 4076912
+        }
+      ]
+    },
+    {
+      "commandId": 33332,
+      "commandHex": "0x8234",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "编辑"
+          ],
+          "label": "裁片平移\tAlt+A",
+          "fileOffset": 4076954
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "编辑"
+          ],
+          "label": "裁片平移\tAlt+A",
+          "fileOffset": 4077008
+        }
+      ]
+    },
+    {
+      "commandId": 33303,
+      "commandHex": "0x8217",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "编辑"
+          ],
+          "label": "删除辅助线",
+          "fileOffset": 4076986
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "编辑"
+          ],
+          "label": "删除辅助线",
+          "fileOffset": 4077034
+        }
+      ]
+    },
+    {
+      "commandId": 33403,
+      "commandHex": "0x827b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "纹理显示",
+          "fileOffset": 4077076
+        }
+      ]
+    },
+    {
+      "commandId": 33405,
+      "commandHex": "0x827d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "编辑纹理",
+          "fileOffset": 4077090
+        }
+      ]
+    },
+    {
+      "commandId": 34069,
+      "commandHex": "0x8515",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "全局导航图",
+          "fileOffset": 4077104
+        }
+      ]
+    },
+    {
+      "commandId": 34017,
+      "commandHex": "0x84e1",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "裁片分类放置",
+          "fileOffset": 4077126
+        }
+      ]
+    },
+    {
+      "commandId": 34131,
+      "commandHex": "0x8553",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "显示"
+          ],
+          "label": "裁片查询",
+          "fileOffset": 4077144
+        }
+      ]
+    },
+    {
+      "commandId": 33335,
+      "commandHex": "0x8237",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "检测"
+          ],
+          "label": "三点角度测量",
+          "fileOffset": 4077166
+        }
+      ]
+    },
+    {
+      "commandId": 33321,
+      "commandHex": "0x8229",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "检测"
+          ],
+          "label": "裁片情报",
+          "fileOffset": 4077190
+        }
+      ]
+    },
+    {
+      "commandId": 34187,
+      "commandHex": "0x858b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "检测"
+          ],
+          "label": "跨线定点",
+          "fileOffset": 4077204
+        }
+      ]
+    },
+    {
+      "commandId": 33385,
+      "commandHex": "0x8269",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "布料名称",
+          "fileOffset": 4077226
+        }
+      ]
+    },
+    {
+      "commandId": 33393,
+      "commandHex": "0x8271",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "关键字",
+          "fileOffset": 4077240
+        }
+      ]
+    },
+    {
+      "commandId": 33209,
+      "commandHex": "0x81b9",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "号型名称",
+          "fileOffset": 4077258
+        }
+      ]
+    },
+    {
+      "commandId": 33211,
+      "commandHex": "0x81bb",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "尺寸表",
+          "fileOffset": 4077272
+        },
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "尺寸表设置",
+          "fileOffset": 4079892
+        }
+      ]
+    },
+    {
+      "commandId": 33330,
+      "commandHex": "0x8232",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "规则表",
+          "fileOffset": 4077284
+        }
+      ]
+    },
+    {
+      "commandId": 32855,
+      "commandHex": "0x8057",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "曲线登录",
+          "fileOffset": 4077302
+        }
+      ]
+    },
+    {
+      "commandId": 32856,
+      "commandHex": "0x8058",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "曲线调出",
+          "fileOffset": 4077316
+        }
+      ]
+    },
+    {
+      "commandId": 33287,
+      "commandHex": "0x8207",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "附件登录",
+          "fileOffset": 4077330
+        }
+      ]
+    },
+    {
+      "commandId": 33288,
+      "commandHex": "0x8208",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "附件调出",
+          "fileOffset": 4077344
+        }
+      ]
+    },
+    {
+      "commandId": 33251,
+      "commandHex": "0x81e3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置",
+            "设置与标注"
+          ],
+          "label": "长度标注",
+          "fileOffset": 4077378
+        }
+      ]
+    },
+    {
+      "commandId": 33252,
+      "commandHex": "0x81e4",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置",
+            "设置与标注"
+          ],
+          "label": "两点标注",
+          "fileOffset": 4077392
+        }
+      ]
+    },
+    {
+      "commandId": 33253,
+      "commandHex": "0x81e5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置",
+            "设置与标注"
+          ],
+          "label": "角度标注",
+          "fileOffset": 4077406
+        }
+      ]
+    },
+    {
+      "commandId": 33254,
+      "commandHex": "0x81e6",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置",
+            "设置与标注"
+          ],
+          "label": "粘衬标注",
+          "fileOffset": 4077420
+        }
+      ]
+    },
+    {
+      "commandId": 34032,
+      "commandHex": "0x84f0",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置",
+            "设置与标注"
+          ],
+          "label": "要素上两点标注",
+          "fileOffset": 4077434
+        }
+      ]
+    },
+    {
+      "commandId": 34169,
+      "commandHex": "0x8579",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "设置"
+          ],
+          "label": "设置属性文字大小",
+          "fileOffset": 4077454
+        }
+      ]
+    },
+    {
+      "commandId": 33306,
+      "commandHex": "0x821a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "裁片补正"
+          ],
+          "label": "纱向水平补正",
+          "fileOffset": 4077496
+        }
+      ]
+    },
+    {
+      "commandId": 33307,
+      "commandHex": "0x821b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "裁片补正"
+          ],
+          "label": "纱向垂直补正",
+          "fileOffset": 4077514
+        }
+      ]
+    },
+    {
+      "commandId": 32851,
+      "commandHex": "0x8053",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "缝边与角处理"
+          ],
+          "label": "自动加缝边",
+          "fileOffset": 4077548
+        }
+      ]
+    },
+    {
+      "commandId": 33311,
+      "commandHex": "0x821f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "缝边与角处理"
+          ],
+          "label": "缝边改净边",
+          "fileOffset": 4077564
+        }
+      ]
+    },
+    {
+      "commandId": 33358,
+      "commandHex": "0x824e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "缝边与角处理"
+          ],
+          "label": "缝净边互换",
+          "fileOffset": 4077580
+        }
+      ]
+    },
+    {
+      "commandId": 33315,
+      "commandHex": "0x8223",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "缝边与角处理"
+          ],
+          "label": "更新所有缝边",
+          "fileOffset": 4077596
+        }
+      ]
+    },
+    {
+      "commandId": 32853,
+      "commandHex": "0x8055",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "缝边与角处理"
+          ],
+          "label": "清除所有缝边",
+          "fileOffset": 4077614
+        }
+      ]
+    },
+    {
+      "commandId": 34019,
+      "commandHex": "0x84e3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "裁片工具"
+          ],
+          "label": "通码裁片",
+          "fileOffset": 4077644
+        }
+      ]
+    },
+    {
+      "commandId": 34057,
+      "commandHex": "0x8509",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "裁片工具"
+          ],
+          "label": "内部刷新\n ALT+D",
+          "fileOffset": 4077658
+        }
+      ]
+    },
+    {
+      "commandId": 33347,
+      "commandHex": "0x8243",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺",
+            "特殊省"
+          ],
+          "label": "插入省",
+          "fileOffset": 4077708
+        }
+      ]
+    },
+    {
+      "commandId": 34093,
+      "commandHex": "0x852d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺",
+            "特殊省"
+          ],
+          "label": "掰开省",
+          "fileOffset": 4077720
+        }
+      ]
+    },
+    {
+      "commandId": 32793,
+      "commandHex": "0x8019",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "切线",
+          "fileOffset": 4077738
+        }
+      ]
+    },
+    {
+      "commandId": 32785,
+      "commandHex": "0x8011",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "平行线",
+          "fileOffset": 4077748
+        }
+      ]
+    },
+    {
+      "commandId": 33196,
+      "commandHex": "0x81ac",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "角度线",
+          "fileOffset": 4077760
+        }
+      ]
+    },
+    {
+      "commandId": 32778,
+      "commandHex": "0x800a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "连续线",
+          "fileOffset": 4077772
+        }
+      ]
+    },
+    {
+      "commandId": 33301,
+      "commandHex": "0x8215",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "角平分线",
+          "fileOffset": 4077784
+        }
+      ]
+    },
+    {
+      "commandId": 32787,
+      "commandHex": "0x8013",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "半径圆",
+          "fileOffset": 4077804
+        }
+      ]
+    },
+    {
+      "commandId": 32805,
+      "commandHex": "0x8025",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "圆角处理",
+          "fileOffset": 4077816
+        }
+      ]
+    },
+    {
+      "commandId": 32810,
+      "commandHex": "0x802a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "两点镜像",
+          "fileOffset": 4077836
+        }
+      ]
+    },
+    {
+      "commandId": 32797,
+      "commandHex": "0x801d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "两点相似",
+          "fileOffset": 4077850
+        }
+      ]
+    },
+    {
+      "commandId": 32818,
+      "commandHex": "0x8032",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "单边展开",
+          "fileOffset": 4077864
+        }
+      ]
+    },
+    {
+      "commandId": 32808,
+      "commandHex": "0x8028",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "局部调整",
+          "fileOffset": 4077878
+        }
+      ]
+    },
+    {
+      "commandId": 32779,
+      "commandHex": "0x800b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "直角连接",
+          "fileOffset": 4077892
+        }
+      ]
+    },
+    {
+      "commandId": 32799,
+      "commandHex": "0x801f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "要素合并",
+          "fileOffset": 4077912
+        }
+      ]
+    },
+    {
+      "commandId": 32804,
+      "commandHex": "0x8024",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "要素打断",
+          "fileOffset": 4077926
+        }
+      ]
+    },
+    {
+      "commandId": 33275,
+      "commandHex": "0x81fb",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "变更颜色",
+          "fileOffset": 4077946
+        }
+      ]
+    },
+    {
+      "commandId": 33281,
+      "commandHex": "0x8201",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "变更线宽",
+          "fileOffset": 4077960
+        }
+      ]
+    },
+    {
+      "commandId": 33259,
+      "commandHex": "0x81eb",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "扣子",
+          "fileOffset": 4077980
+        }
+      ]
+    },
+    {
+      "commandId": 34022,
+      "commandHex": "0x84e6",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "分割扣子扣眼",
+          "fileOffset": 4077990
+        }
+      ]
+    },
+    {
+      "commandId": 34167,
+      "commandHex": "0x8577",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "明线",
+          "fileOffset": 4078014
+        }
+      ]
+    },
+    {
+      "commandId": 32833,
+      "commandHex": "0x8041",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "等分线",
+          "fileOffset": 4078024
+        }
+      ]
+    },
+    {
+      "commandId": 32832,
+      "commandHex": "0x8040",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "打板",
+            "服装工艺"
+          ],
+          "label": "波浪线",
+          "fileOffset": 4078036
+        }
+      ]
+    },
+    {
+      "commandId": 33214,
+      "commandHex": "0x81be",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "进入推板\tAlt+V",
+          "fileOffset": 4078056
+        }
+      ]
+    },
+    {
+      "commandId": 33390,
+      "commandHex": "0x826e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "单步展开",
+          "fileOffset": 4078088
+        }
+      ]
+    },
+    {
+      "commandId": 34091,
+      "commandHex": "0x852b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "袖对刀推板",
+          "fileOffset": 4078108
+        }
+      ]
+    },
+    {
+      "commandId": 34136,
+      "commandHex": "0x8558",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "线对齐移动点",
+          "fileOffset": 4078130
+        }
+      ]
+    },
+    {
+      "commandId": 34137,
+      "commandHex": "0x8559",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "线对齐",
+          "fileOffset": 4078148
+        }
+      ]
+    },
+    {
+      "commandId": 33225,
+      "commandHex": "0x81c9",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "修改切开量",
+          "fileOffset": 4078166
+        }
+      ]
+    },
+    {
+      "commandId": 34163,
+      "commandHex": "0x8573",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "推板"
+          ],
+          "label": "定义角度放码线",
+          "fileOffset": 4078188
+        }
+      ]
+    },
+    {
+      "commandId": 34143,
+      "commandHex": "0x855f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "全部清除",
+          "fileOffset": 4078242
+        }
+      ]
+    },
+    {
+      "commandId": 32773,
+      "commandHex": "0x8005",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "缩小\tX",
+          "fileOffset": 4078286
+        }
+      ]
+    },
+    {
+      "commandId": 32775,
+      "commandHex": "0x8007",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "放大\tZ",
+          "fileOffset": 4078300
+        }
+      ]
+    },
+    {
+      "commandId": 32784,
+      "commandHex": "0x8010",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "全屏\tV",
+          "fileOffset": 4078314
+        }
+      ]
+    },
+    {
+      "commandId": 33195,
+      "commandHex": "0x81ab",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "屏幕移动\tC",
+          "fileOffset": 4078334
+        }
+      ]
+    },
+    {
+      "commandId": 33203,
+      "commandHex": "0x81b3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "前画面\tF10",
+          "fileOffset": 4078352
+        }
+      ]
+    },
+    {
+      "commandId": 33162,
+      "commandHex": "0x818a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "撤消\tCtrl+Z",
+          "fileOffset": 4078378
+        }
+      ]
+    },
+    {
+      "commandId": 33163,
+      "commandHex": "0x818b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "恢复\tCtrl+X",
+          "fileOffset": 4078402
+        }
+      ]
+    },
+    {
+      "commandId": 32786,
+      "commandHex": "0x8012",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "删除",
+          "fileOffset": 4078432
+        }
+      ]
+    },
+    {
+      "commandId": 32790,
+      "commandHex": "0x8016",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "平移",
+          "fileOffset": 4078442
+        }
+      ]
+    },
+    {
+      "commandId": 32813,
+      "commandHex": "0x802d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "水平垂直补正",
+          "fileOffset": 4078452
+        }
+      ]
+    },
+    {
+      "commandId": 32809,
+      "commandHex": "0x8029",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "水平垂直镜像",
+          "fileOffset": 4078470
+        }
+      ]
+    },
+    {
+      "commandId": 32811,
+      "commandHex": "0x802b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "要素镜像",
+          "fileOffset": 4078488
+        }
+      ]
+    },
+    {
+      "commandId": 32791,
+      "commandHex": "0x8017",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "上方工具条图标工具"
+          ],
+          "label": "旋转",
+          "fileOffset": 4078502
+        }
+      ]
+    },
+    {
+      "commandId": 34044,
+      "commandHex": "0x84fc",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "刷新参照层",
+          "fileOffset": 4078528
+        }
+      ]
+    },
+    {
+      "commandId": 34045,
+      "commandHex": "0x84fd",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示参照层",
+          "fileOffset": 4078544
+        }
+      ]
+    },
+    {
+      "commandId": 33404,
+      "commandHex": "0x827c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "线框显示",
+          "fileOffset": 4078566
+        }
+      ]
+    },
+    {
+      "commandId": 33320,
+      "commandHex": "0x8228",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "填充显示",
+          "fileOffset": 4078580
+        }
+      ]
+    },
+    {
+      "commandId": 33333,
+      "commandHex": "0x8235",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "单片全屏\tB",
+          "fileOffset": 4078594
+        }
+      ]
+    },
+    {
+      "commandId": 34035,
+      "commandHex": "0x84f3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示要素长度",
+          "fileOffset": 4078618
+        }
+      ]
+    },
+    {
+      "commandId": 33396,
+      "commandHex": "0x8274",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示缝边宽度",
+          "fileOffset": 4078636
+        }
+      ]
+    },
+    {
+      "commandId": 33235,
+      "commandHex": "0x81d3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏放码点",
+          "fileOffset": 4078660
+        }
+      ]
+    },
+    {
+      "commandId": 33237,
+      "commandHex": "0x81d5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏放码规则",
+          "fileOffset": 4078682
+        }
+      ]
+    },
+    {
+      "commandId": 33236,
+      "commandHex": "0x81d4",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏切开线",
+          "fileOffset": 4078706
+        }
+      ]
+    },
+    {
+      "commandId": 33269,
+      "commandHex": "0x81f5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏属性文字",
+          "fileOffset": 4078728
+        }
+      ]
+    },
+    {
+      "commandId": 33273,
+      "commandHex": "0x81f9",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏缝边",
+          "fileOffset": 4078752
+        }
+      ]
+    },
+    {
+      "commandId": 33401,
+      "commandHex": "0x8279",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "显示/隐藏净边",
+          "fileOffset": 4078772
+        }
+      ]
+    },
+    {
+      "commandId": 33392,
+      "commandHex": "0x8270",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "左侧图标工具"
+          ],
+          "label": "隐藏裁片",
+          "fileOffset": 4078792
+        }
+      ]
+    },
+    {
+      "commandId": 33206,
+      "commandHex": "0x81b6",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具"
+          ],
+          "label": "智能工具\t~",
+          "fileOffset": 4078828
+        }
+      ]
+    },
+    {
+      "commandId": 33260,
+      "commandHex": "0x81ec",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "扣眼",
+          "fileOffset": 4078856
+        }
+      ]
+    },
+    {
+      "commandId": 32800,
+      "commandHex": "0x8020",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "端移动",
+          "fileOffset": 4078866
+        }
+      ]
+    },
+    {
+      "commandId": 33304,
+      "commandHex": "0x8218",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "双圆规",
+          "fileOffset": 4078878
+        }
+      ]
+    },
+    {
+      "commandId": 32831,
+      "commandHex": "0x803f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "工艺线",
+          "fileOffset": 4078890
+        }
+      ]
+    },
+    {
+      "commandId": 33317,
+      "commandHex": "0x8225",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "曲线圆角处理",
+          "fileOffset": 4078908
+        }
+      ]
+    },
+    {
+      "commandId": 33381,
+      "commandHex": "0x8265",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "对称修改",
+          "fileOffset": 4078926
+        }
+      ]
+    },
+    {
+      "commandId": 32780,
+      "commandHex": "0x800c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "量规",
+          "fileOffset": 4078940
+        }
+      ]
+    },
+    {
+      "commandId": 33409,
+      "commandHex": "0x8281",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版一"
+          ],
+          "label": "要素属性",
+          "fileOffset": 4078950
+        }
+      ]
+    },
+    {
+      "commandId": 32803,
+      "commandHex": "0x8023",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "点打断",
+          "fileOffset": 4078974
+        }
+      ]
+    },
+    {
+      "commandId": 32812,
+      "commandHex": "0x802c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "形状对接",
+          "fileOffset": 4078986
+        }
+      ]
+    },
+    {
+      "commandId": 32839,
+      "commandHex": "0x8047",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "袖对刀",
+          "fileOffset": 4079000
+        }
+      ]
+    },
+    {
+      "commandId": 32838,
+      "commandHex": "0x8046",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "刀口",
+          "fileOffset": 4079012
+        }
+      ]
+    },
+    {
+      "commandId": 33263,
+      "commandHex": "0x81ef",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "打孔",
+          "fileOffset": 4079028
+        }
+      ]
+    },
+    {
+      "commandId": 32814,
+      "commandHex": "0x802e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "纸形剪开",
+          "fileOffset": 4079038
+        }
+      ]
+    },
+    {
+      "commandId": 32824,
+      "commandHex": "0x8038",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "贴边",
+          "fileOffset": 4079052
+        }
+      ]
+    },
+    {
+      "commandId": 32840,
+      "commandHex": "0x8048",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版二"
+          ],
+          "label": "删除及修改刀口",
+          "fileOffset": 4079062
+        }
+      ]
+    },
+    {
+      "commandId": 32825,
+      "commandHex": "0x8039",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "接角圆顺",
+          "fileOffset": 4079092
+        }
+      ]
+    },
+    {
+      "commandId": 34050,
+      "commandHex": "0x8502",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "拉链缝合",
+          "fileOffset": 4079106
+        }
+      ]
+    },
+    {
+      "commandId": 34088,
+      "commandHex": "0x8528",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "螺旋操作",
+          "fileOffset": 4079120
+        }
+      ]
+    },
+    {
+      "commandId": 34132,
+      "commandHex": "0x8554",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "袖综合调整",
+          "fileOffset": 4079134
+        }
+      ]
+    },
+    {
+      "commandId": 33352,
+      "commandHex": "0x8248",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "一枚袖",
+          "fileOffset": 4079156
+        }
+      ]
+    },
+    {
+      "commandId": 33261,
+      "commandHex": "0x81ed",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "两枚袖",
+          "fileOffset": 4079168
+        }
+      ]
+    },
+    {
+      "commandId": 34105,
+      "commandHex": "0x8539",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "插肩袖",
+          "fileOffset": 4079180
+        }
+      ]
+    },
+    {
+      "commandId": 34127,
+      "commandHex": "0x854f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版三"
+          ],
+          "label": "西装领",
+          "fileOffset": 4079192
+        }
+      ]
+    },
+    {
+      "commandId": 32816,
+      "commandHex": "0x8030",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "固定等分割",
+          "fileOffset": 4079214
+        }
+      ]
+    },
+    {
+      "commandId": 32815,
+      "commandHex": "0x802f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "指定分割",
+          "fileOffset": 4079230
+        }
+      ]
+    },
+    {
+      "commandId": 33318,
+      "commandHex": "0x8226",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "多边展开",
+          "fileOffset": 4079244
+        }
+      ]
+    },
+    {
+      "commandId": 32823,
+      "commandHex": "0x8037",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "衣褶",
+          "fileOffset": 4079258
+        }
+      ]
+    },
+    {
+      "commandId": 32819,
+      "commandHex": "0x8033",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "省道",
+          "fileOffset": 4079274
+        }
+      ]
+    },
+    {
+      "commandId": 32820,
+      "commandHex": "0x8034",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "省折线",
+          "fileOffset": 4079284
+        }
+      ]
+    },
+    {
+      "commandId": 32841,
+      "commandHex": "0x8049",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "枣弧省",
+          "fileOffset": 4079296
+        }
+      ]
+    },
+    {
+      "commandId": 32822,
+      "commandHex": "0x8036",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版四"
+          ],
+          "label": "转省",
+          "fileOffset": 4079308
+        }
+      ]
+    },
+    {
+      "commandId": 32846,
+      "commandHex": "0x804e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "缝边刷新\tAlt+S",
+          "fileOffset": 4079328
+        }
+      ]
+    },
+    {
+      "commandId": 32828,
+      "commandHex": "0x803c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "缝边宽度",
+          "fileOffset": 4079354
+        }
+      ]
+    },
+    {
+      "commandId": 33250,
+      "commandHex": "0x81e2",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "裁片属性",
+          "fileOffset": 4079368
+        }
+      ]
+    },
+    {
+      "commandId": 33204,
+      "commandHex": "0x81b4",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "删除缝边",
+          "fileOffset": 4079382
+        }
+      ]
+    },
+    {
+      "commandId": 32829,
+      "commandHex": "0x803d",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "缝边角处理",
+          "fileOffset": 4079402
+        }
+      ]
+    },
+    {
+      "commandId": 33336,
+      "commandHex": "0x8238",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "专用角处理",
+          "fileOffset": 4079418
+        }
+      ]
+    },
+    {
+      "commandId": 32852,
+      "commandHex": "0x8054",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "提取裁片",
+          "fileOffset": 4079434
+        }
+      ]
+    },
+    {
+      "commandId": 34082,
+      "commandHex": "0x8522",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版五"
+          ],
+          "label": "裁片合并",
+          "fileOffset": 4079448
+        }
+      ]
+    },
+    {
+      "commandId": 33299,
+      "commandHex": "0x8213",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "缩水操作",
+          "fileOffset": 4079472
+        }
+      ]
+    },
+    {
+      "commandId": 34119,
+      "commandHex": "0x8547",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "要素局部缩水",
+          "fileOffset": 4079486
+        }
+      ]
+    },
+    {
+      "commandId": 34118,
+      "commandHex": "0x8546",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "裁片动态局部缩水",
+          "fileOffset": 4079504
+        }
+      ]
+    },
+    {
+      "commandId": 32792,
+      "commandHex": "0x8018",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "比例变换",
+          "fileOffset": 4079526
+        }
+      ]
+    },
+    {
+      "commandId": 32835,
+      "commandHex": "0x8043",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "裁片拉伸",
+          "fileOffset": 4079546
+        }
+      ]
+    },
+    {
+      "commandId": 33316,
+      "commandHex": "0x8224",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "自动生成朴",
+          "fileOffset": 4079560
+        }
+      ]
+    },
+    {
+      "commandId": 34092,
+      "commandHex": "0x852c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "变形缝合",
+          "fileOffset": 4079576
+        }
+      ]
+    },
+    {
+      "commandId": 33266,
+      "commandHex": "0x81f2",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "打版图标工具",
+            "打版六"
+          ],
+          "label": "任意文字",
+          "fileOffset": 4079590
+        }
+      ]
+    },
+    {
+      "commandId": 33205,
+      "commandHex": "0x81b5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "皮尺测量\tCtrl+1",
+          "fileOffset": 4079618
+        }
+      ]
+    },
+    {
+      "commandId": 32830,
+      "commandHex": "0x803e",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "两点测量\tCtrl+3",
+          "fileOffset": 4079646
+        }
+      ]
+    },
+    {
+      "commandId": 33410,
+      "commandHex": "0x8282",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "线上两点拼合检查\t Ctrl-5",
+          "fileOffset": 4079674
+        }
+      ]
+    },
+    {
+      "commandId": 34027,
+      "commandHex": "0x84eb",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "综合测量",
+          "fileOffset": 4079712
+        }
+      ]
+    },
+    {
+      "commandId": 32858,
+      "commandHex": "0x805a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "长度测量\tCtrl+2",
+          "fileOffset": 4079726
+        }
+      ]
+    },
+    {
+      "commandId": 33242,
+      "commandHex": "0x81da",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "拼合检查\tCtrl+4",
+          "fileOffset": 4079754
+        }
+      ]
+    },
+    {
+      "commandId": 32834,
+      "commandHex": "0x8042",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "角度测量\tCtrl+6",
+          "fileOffset": 4079782
+        }
+      ]
+    },
+    {
+      "commandId": 34026,
+      "commandHex": "0x84ea",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "检查与测量"
+          ],
+          "label": "安全检测",
+          "fileOffset": 4079816
+        }
+      ]
+    },
+    {
+      "commandId": 33227,
+      "commandHex": "0x81cb",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "推板展开\tAlt+Z",
+          "fileOffset": 4079856
+        }
+      ]
+    },
+    {
+      "commandId": 33230,
+      "commandHex": "0x81ce",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "对齐",
+          "fileOffset": 4079882
+        }
+      ]
+    },
+    {
+      "commandId": 33243,
+      "commandHex": "0x81db",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "规则修改",
+          "fileOffset": 4079908
+        }
+      ]
+    },
+    {
+      "commandId": 33218,
+      "commandHex": "0x81c2",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "移动点\tAlt+C",
+          "fileOffset": 4079922
+        }
+      ]
+    },
+    {
+      "commandId": 33217,
+      "commandHex": "0x81c1",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版一"
+          ],
+          "label": "固定点",
+          "fileOffset": 4079946
+        }
+      ]
+    },
+    {
+      "commandId": 33220,
+      "commandHex": "0x81c4",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "要素比例点",
+          "fileOffset": 4079968
+        }
+      ]
+    },
+    {
+      "commandId": 33229,
+      "commandHex": "0x81cd",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "两点间比例点",
+          "fileOffset": 4079984
+        }
+      ]
+    },
+    {
+      "commandId": 33258,
+      "commandHex": "0x81ea",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "要素距离点",
+          "fileOffset": 4080002
+        }
+      ]
+    },
+    {
+      "commandId": 33219,
+      "commandHex": "0x81c3",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "方向移动点",
+          "fileOffset": 4080018
+        }
+      ]
+    },
+    {
+      "commandId": 33221,
+      "commandHex": "0x81c5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "距离平行点",
+          "fileOffset": 4080040
+        }
+      ]
+    },
+    {
+      "commandId": 33257,
+      "commandHex": "0x81e9",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "方向交点",
+          "fileOffset": 4080056
+        }
+      ]
+    },
+    {
+      "commandId": 33222,
+      "commandHex": "0x81c6",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "要素平行交点",
+          "fileOffset": 4080070
+        }
+      ]
+    },
+    {
+      "commandId": 33231,
+      "commandHex": "0x81cf",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版二"
+          ],
+          "label": "删除放码规则",
+          "fileOffset": 4080088
+        }
+      ]
+    },
+    {
+      "commandId": 33256,
+      "commandHex": "0x81e8",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "点规则拷贝",
+          "fileOffset": 4080116
+        }
+      ]
+    },
+    {
+      "commandId": 33289,
+      "commandHex": "0x8209",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "分割拷贝",
+          "fileOffset": 4080132
+        }
+      ]
+    },
+    {
+      "commandId": 33240,
+      "commandHex": "0x81d8",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "文件间片拷贝",
+          "fileOffset": 4080146
+        }
+      ]
+    },
+    {
+      "commandId": 33300,
+      "commandHex": "0x8214",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "片规则拷贝",
+          "fileOffset": 4080164
+        }
+      ]
+    },
+    {
+      "commandId": 33360,
+      "commandHex": "0x8250",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "移动量检测",
+          "fileOffset": 4080180
+        }
+      ]
+    },
+    {
+      "commandId": 33361,
+      "commandHex": "0x8251",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版三"
+          ],
+          "label": "移动量拷贝",
+          "fileOffset": 4080196
+        }
+      ]
+    },
+    {
+      "commandId": 33215,
+      "commandHex": "0x81bf",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "增加放码点",
+          "fileOffset": 4080222
+        }
+      ]
+    },
+    {
+      "commandId": 33216,
+      "commandHex": "0x81c0",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "删除放码点",
+          "fileOffset": 4080238
+        }
+      ]
+    },
+    {
+      "commandId": 33323,
+      "commandHex": "0x822b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "锁定放码点",
+          "fileOffset": 4080254
+        }
+      ]
+    },
+    {
+      "commandId": 33355,
+      "commandHex": "0x824b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "解锁放码点",
+          "fileOffset": 4080270
+        }
+      ]
+    },
+    {
+      "commandId": 33386,
+      "commandHex": "0x826a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "量规点规则",
+          "fileOffset": 4080292
+        }
+      ]
+    },
+    {
+      "commandId": 33359,
+      "commandHex": "0x824f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "点对齐移动点",
+          "fileOffset": 4080308
+        }
+      ]
+    },
+    {
+      "commandId": 33343,
+      "commandHex": "0x823f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "距离约束点规则",
+          "fileOffset": 4080326
+        }
+      ]
+    },
+    {
+      "commandId": 33319,
+      "commandHex": "0x8227",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "长度约束点规则",
+          "fileOffset": 4080346
+        }
+      ]
+    },
+    {
+      "commandId": 34140,
+      "commandHex": "0x855c",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "拼接合并",
+          "fileOffset": 4080366
+        }
+      ]
+    },
+    {
+      "commandId": 34037,
+      "commandHex": "0x84f5",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "缝边式推板",
+          "fileOffset": 4080380
+        }
+      ]
+    },
+    {
+      "commandId": 33394,
+      "commandHex": "0x8272",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "曲线组长度调整",
+          "fileOffset": 4080402
+        }
+      ]
+    },
+    {
+      "commandId": 34014,
+      "commandHex": "0x84de",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "推版四"
+          ],
+          "label": "领片曲线",
+          "fileOffset": 4080422
+        }
+      ]
+    },
+    {
+      "commandId": 33223,
+      "commandHex": "0x81c7",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "竖切开线",
+          "fileOffset": 4080446
+        }
+      ]
+    },
+    {
+      "commandId": 33290,
+      "commandHex": "0x820a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "横切开线",
+          "fileOffset": 4080460
+        }
+      ]
+    },
+    {
+      "commandId": 33291,
+      "commandHex": "0x820b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "斜切开线",
+          "fileOffset": 4080474
+        }
+      ]
+    },
+    {
+      "commandId": 33224,
+      "commandHex": "0x81c8",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "输入切开量",
+          "fileOffset": 4080494
+        }
+      ]
+    },
+    {
+      "commandId": 33228,
+      "commandHex": "0x81cc",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "展开中心点",
+          "fileOffset": 4080510
+        }
+      ]
+    },
+    {
+      "commandId": 33226,
+      "commandHex": "0x81ca",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "推版图标工具",
+            "线放码"
+          ],
+          "label": "增减切开点",
+          "fileOffset": 4080526
+        }
+      ]
+    },
+    {
+      "commandId": 32777,
+      "commandHex": "0x8009",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "智能工具条"
+          ],
+          "label": "矩形框",
+          "fileOffset": 4080562
+        }
+      ]
+    },
+    {
+      "commandId": 32776,
+      "commandHex": "0x8008",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "智能工具条"
+          ],
+          "label": "丁字尺",
+          "fileOffset": 4080574
+        }
+      ]
+    },
+    {
+      "commandId": 32783,
+      "commandHex": "0x800f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "智能工具条"
+          ],
+          "label": "直线/曲线",
+          "fileOffset": 4080586
+        }
+      ]
+    },
+    {
+      "commandId": 32794,
+      "commandHex": "0x801a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "智能工具条"
+          ],
+          "label": "曲线编辑",
+          "fileOffset": 4080602
+        }
+      ]
+    },
+    {
+      "commandId": 33329,
+      "commandHex": "0x8231",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "图标工具",
+            "智能工具条"
+          ],
+          "label": "端修正",
+          "fileOffset": 4080616
+        }
+      ]
+    },
+    {
+      "commandId": 33353,
+      "commandHex": "0x8249",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "自定义快捷菜单",
+          "fileOffset": 4080668
+        }
+      ]
+    },
+    {
+      "commandId": 34106,
+      "commandHex": "0x853a",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "自定义工具组",
+          "fileOffset": 4080694
+        }
+      ]
+    },
+    {
+      "commandId": 34059,
+      "commandHex": "0x850b",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "快捷键表显示",
+          "fileOffset": 4080718
+        }
+      ]
+    },
+    {
+      "commandId": 34191,
+      "commandHex": "0x858f",
+      "entries": [
+        {
+          "menu": {
+            "kind": "id",
+            "id": 180
+          },
+          "ancestors": [
+            "帮助"
+          ],
+          "label": "登录ET官网(www.etsystem.cn)",
+          "fileOffset": 4080736
+        }
+      ]
+    }
+  ]
+}

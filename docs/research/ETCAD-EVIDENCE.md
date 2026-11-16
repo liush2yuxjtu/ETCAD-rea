@@ -4,6 +4,8 @@
 
 **后续更新：** 已根据用户要求下载官方 `ET_PSV.rar` 学习版，在 VM 安装 REA 6.9.0、Ghidra 12.1.4 和完整 JDK，并建立真实 MCP 会话。原生证据和限制单列于 [REA MCP 二进制调查](native/REA-ETCAD-ANALYSIS.md)。以下原始文档结论没有被自动升级为运行时事实；本轮仍未运行 ETCAD Windows 界面。
 
+第三轮更新：已在浏览器的 WASM/Wine 环境启动学习版原 EXE 到工作台，取得真实 GUI 截图；后续操作黑屏，未获得原版可用网站。详见 [GUI 工具](native/GUI-TOOLS.md) 与 [兼容实验](native/wasm/WASM-FEASIBILITY.md)。
+
 ## REA 的作用
 
 REA 的 README 说明它通过 MCP 或 CLI 检查 native、JavaScript/Electron、.NET 和网站等目标，再返回带证据与限制的结果。它是分析工具，**不是 ETCAD 应用**。读取的固定版本为 [morluto/rea@f14e9a1d](https://github.com/morluto/rea/tree/f14e9a1d282a7155c32f260730f5881d2c3e6c83)，工作流见 [reverse-engineer-anything](https://github.com/morluto/rea/blob/f14e9a1d282a7155c32f260730f5881d2c3e6c83/.agents/skills/reverse-engineer-anything/SKILL.md)。第一轮只有文档；第二轮才取得真实 artifact 并使用 REA MCP。两轮的证据层次保持分开。

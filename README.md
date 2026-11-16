@@ -33,6 +33,8 @@ npm start
 - 可下载的五页文档：[Word](docs/research/ETCAD-Versions.docx) · [PDF](docs/research/ETCAD-Versions.pdf)。
 - [ETCAD 功能证据与实现映射](docs/research/ETCAD-EVIDENCE.md)：新建、编辑、测量检查及审版的证据，逐项区分文档事实和本项目设计。
 - [REA MCP 原生二进制调查](docs/research/native/REA-ETCAD-ANALYSIS.md)：官方下载、哈希、真实 MCP 连接、Ghidra 静态结果和操作边界。
+- [原版 GUI 工具清单](docs/research/native/GUI-TOOLS.md)：按普通用途解释工具，附菜单资源解码与真实启动截图。
+- [原版 WASM/Vercel 兼容实验](docs/research/native/wasm/WASM-FEASIBILITY.md)：已在浏览器运行原学习版到界面；操作仍黑屏，兼容验收未通过，尚未部署原版。
 - [机器可读更新目录](docs/research/releases.json)。
 - [真实运行验证](docs/verification/VERIFICATION.md)。
 

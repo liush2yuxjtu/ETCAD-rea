@@ -1,0 +1,128 @@
+[
+  {
+    "evidence_id": "ev_0e3c0ea258d38552e1cc94332b4d729f9919aab8249988dbb1bcd857e21606b3",
+    "operation": "inspect_pe_imports",
+    "provider": {
+      "id": "rea-pe-imports",
+      "name": "REA PE import parser",
+      "version": "1"
+    },
+    "artifact": {
+      "path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETInfo.dll",
+      "sha256": "e71f67f72a055f6c27a60ed98dc5796405cff1622458966f0f03bada642e8851",
+      "bytes": 483328
+    },
+    "imports": [
+      {
+        "index": 2,
+        "name": "MSIMG32.dll",
+        "name_rva": 105424,
+        "original_first_thunk_rva": 103884,
+        "first_thunk_rva": 87224,
+        "time_date_stamp": 0,
+        "forwarder_chain": 0,
+        "location": {
+          "offset": 102496,
+          "bytes": 20
+        },
+        "functions": [
+          {
+            "hint": 3,
+            "name": "TransparentBlt",
+            "ordinal": null,
+            "ilt_rva": 103884,
+            "iat_rva": 87224,
+            "thunk_hex": "19bae"
+          },
+          {
+            "hint": 2,
+            "name": "GradientFill",
+            "ordinal": null,
+            "ilt_rva": 103888,
+            "iat_rva": 87228,
+            "thunk_hex": "19bc0"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "MFC42u.DLL",
+        "name_rva": 105886,
+        "original_first_thunk_rva": 102968,
+        "first_thunk_rva": 86308,
+        "time_date_stamp": 0,
+        "forwarder_chain": 0,
+        "location": {
+          "offset": 102556,
+          "bytes": 20
+        },
+        "functionCount": 228,
+        "functionNamesOmitted": true
+      }
+    ],
+    "limitations": [
+      "Rows reproduce the PE import and delay-load directories; they do not establish that an import is bound, forwarded or reachable at runtime.",
+      "Bound import snapshots, the import address table as loaded, and export-forward resolution in another DLL remain unobserved."
+    ],
+    "projection": "Selected static import metadata. Full raw MCP responses are retained in the VM and hashed in raw-evidence-index.json."
+  },
+  {
+    "evidence_id": "ev_b36066053df89fe8036b1c9d42136c618f991f12d0ae39dda7ba84b4715a8713",
+    "operation": "inspect_pe_imports",
+    "provider": {
+      "id": "rea-pe-imports",
+      "name": "REA PE import parser",
+      "version": "1"
+    },
+    "artifact": {
+      "path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETShare.dll",
+      "sha256": "c2fab6c6ceccd09c7b7152d32a009f4f290207d8d9792f4d4535a8a918904351",
+      "bytes": 237568
+    },
+    "imports": [
+      {
+        "index": 1,
+        "name": "MSIMG32.dll",
+        "name_rva": 158662,
+        "original_first_thunk_rva": 158192,
+        "first_thunk_rva": 136844,
+        "time_date_stamp": 0,
+        "forwarder_chain": 0,
+        "location": {
+          "offset": 156276,
+          "bytes": 20
+        },
+        "functions": [
+          {
+            "hint": 3,
+            "name": "TransparentBlt",
+            "ordinal": null,
+            "ilt_rva": 158192,
+            "iat_rva": 136844,
+            "thunk_hex": "26bb4"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "MFC42u.DLL",
+        "name_rva": 158864,
+        "original_first_thunk_rva": 156772,
+        "first_thunk_rva": 135424,
+        "time_date_stamp": 0,
+        "forwarder_chain": 0,
+        "location": {
+          "offset": 156316,
+          "bytes": 20
+        },
+        "functionCount": 354,
+        "functionNamesOmitted": true
+      }
+    ],
+    "limitations": [
+      "Rows reproduce the PE import and delay-load directories; they do not establish that an import is bound, forwarded or reachable at runtime.",
+      "Bound import snapshots, the import address table as loaded, and export-forward resolution in another DLL remain unobserved."
+    ],
+    "projection": "Selected static import metadata. Full raw MCP responses are retained in the VM and hashed in raw-evidence-index.json."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "source": "https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe",
+  "sourceSha256": "c2eb91d9c4448d50e46a32fecbcc3b418706d002beab9b5f4981de552098cee7",
+  "extracted": {
+    "mfc42.dll": "ec63a85030c60716acdcf060abfaa95a6a3528631622fa60e7d17fbea2f751f9",
+    "mfc42u.dll": "5b3b68bb88be968a0c7c24887b437fac6d9081671b8d8376482168383ca30b8b",
+    "olepro32.dll": "789c3c45eda1749bd939f4a96616e1e9ef1b7dcc62a2889f65088954c64d0938"
+  },
+  "overlayBytes": 16520761
+}

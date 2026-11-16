@@ -1,0 +1,49 @@
+{
+  "state": {
+    "url": "http://127.0.0.1:4392/MultiThreaded/boxedwine.html?app=etcad-compat&p=ETCOM_PSV.exe&sound=false&resolution=1024x768&auto=true&root=etcad-root",
+    "status": "",
+    "output": "Starting ...\nCommand line arguments: \"./this.program\" \"-root\" \"/root\" \"-zip\" \"etcad-root.zip\" \"-mount\" \"etcad-compat.zip\" \"/home/username/.wine/dosdevices/c:/files\" \"-mount_drive\" \"/d_drive\" \"d\" \"-resolution\" \"1024x768\" \"-nosound\" \"-w\" \"/home/username/.wine/dosdevices/c:/files\" \"/bin/wine\" \"ETCOM_PSV.exe\"\nUsing root directory: /root\nUsing zip file system: etcad-root.zip\nResolution set to: 1024x768\nLoaded etcad-root.zip in 55 ms\nMounted etcad-compat.zip in 8 ms\nLaunching \"/bin/wine\" \"ETCOM_PSV.exe\" \n002c:err:module:process_init L\"C:\\\\windows\\\\system32\\\\wineboot.exe\" not found\n0024:err:environ:run_wineboot failed to start wineboot c0000135\n003c:err:ole:start_rpcss Failed to open service manager\nShowing Window\n0024:err:wgl:init_opengl Failed to load libGL: libGL.so.1: cannot open shared object file: No such file or directory\n0024:err:wgl:init_opengl OpenGL support is disabled.\n",
+    "canvas": {
+      "x": 128,
+      "y": 31,
+      "width": 1024,
+      "height": 768,
+      "top": 31,
+      "right": 1152,
+      "bottom": 799,
+      "left": 128
+    }
+  },
+  "console": [
+    "running initial setup",
+    "setting auto run to: true",
+    "setting load Desktop to: false",
+    "setting root zip file to: etcad-root.zip",
+    "setting app zip file to: etcad-compat.zip",
+    "setting program to execute to: ETCOM_PSV.exe",
+    "setting sound to: false",
+    "setting BPP to: 32",
+    "setting skipFrameFPS to: 0",
+    "setting Resolution to: 1024x768",
+    "Use Storage mode: INDEXED_DB",
+    "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "File created://etcad-compat.zip",
+    "File created://etcad-root.zip",
+    "Emulator params:-root,/root,-zip,etcad-root.zip,-mount,etcad-compat.zip,/home/username/.wine/dosdevices/c:/files,-mount_drive,/d_drive,d,-resolution,1024x768,-nosound,-w,/home/username/.wine/dosdevices/c:/files,/bin/wine,ETCOM_PSV.exe",
+    "Starting ...",
+    "Command line arguments: \"./this.program\" \"-root\" \"/root\" \"-zip\" \"etcad-root.zip\" \"-mount\" \"etcad-compat.zip\" \"/home/username/.wine/dosdevices/c:/files\" \"-mount_drive\" \"/d_drive\" \"d\" \"-resolution\" \"1024x768\" \"-nosound\" \"-w\" \"/home/username/.wine/dosdevices/c:/files\" \"/bin/wine\" \"ETCOM_PSV.exe\"",
+    "Using root directory: /root",
+    "Using zip file system: etcad-root.zip",
+    "Resolution set to: 1024x768",
+    "Loaded etcad-root.zip in 55 ms",
+    "Mounted etcad-compat.zip in 8 ms",
+    "Launching \"/bin/wine\" \"ETCOM_PSV.exe\" ",
+    "002c:err:module:process_init L\"C:\\\\windows\\\\system32\\\\wineboot.exe\" not found",
+    "0024:err:environ:run_wineboot failed to start wineboot c0000135",
+    "003c:err:ole:start_rpcss Failed to open service manager",
+    "Showing Window",
+    "0024:err:wgl:init_opengl Failed to load libGL: libGL.so.1: cannot open shared object file: No such file or directory",
+    "0024:err:wgl:init_opengl OpenGL support is disabled."
+  ],
+  "errors": []
+}

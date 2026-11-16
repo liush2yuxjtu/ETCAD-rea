@@ -1,0 +1,202 @@
+[
+  {
+    "vmFile": "control-ski.json",
+    "bytes": 3284,
+    "sha256": "2c0d2b8647f4e57633330fc4dafee3d4176ac01c95c6c4ae1655e330cbe31d3e"
+  },
+  {
+    "vmFile": "etcom-app-local-vc6.json",
+    "bytes": 3549,
+    "sha256": "61b4fa4eeaa504e92e82d9f8b751802336aad61f20998b1836095b3538774bc4"
+  },
+  {
+    "vmFile": "etcom-unmodified.json",
+    "bytes": 5889,
+    "sha256": "93dd22d84eb1989cb9366a4cba1e647629526ede1e5a2af29a4829db13164b0b"
+  },
+  {
+    "vmFile": "etcom-vc6-wine11.json",
+    "bytes": 3915,
+    "sha256": "e4de20ef99ff9e71439b25349a22df2c4ba192a98bc48019ed76556b52202725"
+  },
+  {
+    "vmFile": "final-gui-capture/console.json",
+    "bytes": 1895,
+    "sha256": "caff32b74a2343c1fed4616f3a677fbdd8bdd1d6da7671210a381dbe37177147"
+  },
+  {
+    "vmFile": "final-gui-capture/native-learning-edition-gui.json",
+    "bytes": 3226,
+    "sha256": "b4d45e4270abf82230d00c8349b3174013e96737973b61c60e4d3fe1127c4f47"
+  },
+  {
+    "vmFile": "live/01-after-runtime-repair.json",
+    "bytes": 4707,
+    "sha256": "1b16678316c1a65ec77f7d8f9d5217f7985b4326d2c76a232088509e68987600"
+  },
+  {
+    "vmFile": "live/02-startup-followup.json",
+    "bytes": 4815,
+    "sha256": "33b76a9b1734e7ce68ad5c7acb6c23dec66392d73ee359d6b170e559adbcf1e4"
+  },
+  {
+    "vmFile": "live/03-after-splash-click.json",
+    "bytes": 4815,
+    "sha256": "33b76a9b1734e7ce68ad5c7acb6c23dec66392d73ee359d6b170e559adbcf1e4"
+  },
+  {
+    "vmFile": "live/console.json",
+    "bytes": 2796,
+    "sha256": "311875010d2c5aadc39b888d9f0f4f90554a2232ca537498788a770520d16a41"
+  },
+  {
+    "vmFile": "live-gdi/01-gdi-preference.json",
+    "bytes": 3204,
+    "sha256": "5747c5a414e148b5110710c6062614a23c2ecb8e58609f540328bf42be993130"
+  },
+  {
+    "vmFile": "live-gdi/02-gdi-open-dialog.json",
+    "bytes": 3204,
+    "sha256": "5747c5a414e148b5110710c6062614a23c2ecb8e58609f540328bf42be993130"
+  },
+  {
+    "vmFile": "live-gdi/console.json",
+    "bytes": 1881,
+    "sha256": "ccec7591057648b34d3f4addaa0d5ec42e920442af0f47b989909901768b64fa"
+  },
+  {
+    "vmFile": "live-modern/01-modern-startup.json",
+    "bytes": 7841,
+    "sha256": "b357be8382916fa7e887d4eb526c65ca00a15b9c225835f3ac5b480698044aa8"
+  },
+  {
+    "vmFile": "live-modern/02-modern-settled.json",
+    "bytes": 9793,
+    "sha256": "5b0b0d6bbe5d9b81949caafac5b8b9c60e7adad0bf044ab933cd4642d58a6490"
+  },
+  {
+    "vmFile": "live-mt/01-multithreaded-fonts.json",
+    "bytes": 1096,
+    "sha256": "766d157aedee3838a8d1ae3b410abfbe42957942fa35bd39efd9b06bb9337de9"
+  },
+  {
+    "vmFile": "live-mt/02-multithreaded-followup.json",
+    "bytes": 3004,
+    "sha256": "6b3ffb030e6ae5c6b475988400985300cbafef9490e27ff7bfb411e16e20f8e6"
+  },
+  {
+    "vmFile": "live-mt/03-multithreaded-window.json",
+    "bytes": 3360,
+    "sha256": "b47b21856e93ce06bec95b9879317015ba994caef8b2747267fa44f44e00005b"
+  },
+  {
+    "vmFile": "live-mt/04-mt-open-dialog.json",
+    "bytes": 3360,
+    "sha256": "b47b21856e93ce06bec95b9879317015ba994caef8b2747267fa44f44e00005b"
+  },
+  {
+    "vmFile": "live-mt/console.json",
+    "bytes": 2028,
+    "sha256": "e540084e1f1703fb4743231eea061b3b33867a99f6c96fb52935c0b41b312a92"
+  },
+  {
+    "vmFile": "live-patched/01-hidden-probe-fix.json",
+    "bytes": 681,
+    "sha256": "856df3b7bb8b36c5622a113f57609d40f074214abac73653250b348224111f5d"
+  },
+  {
+    "vmFile": "live-patched/console.json",
+    "bytes": 259,
+    "sha256": "261396503d3a29b6ef00f623c97010c37bd9dacad777b52d821544af060b6c24"
+  },
+  {
+    "vmFile": "live-patched2/01-desktop-visibility-test.json",
+    "bytes": 7524,
+    "sha256": "c735604ac32b852c7778ba63c488591422cd0bb6173f66be6406880eaa682735"
+  },
+  {
+    "vmFile": "live-patched2/02-final-compatibility-result.json",
+    "bytes": 10580,
+    "sha256": "a53b3e83013ac4f830e170afca2ec9c052869c2fce2c4ff9b1f2b7f15172b86a"
+  },
+  {
+    "vmFile": "live-patched2/console.json",
+    "bytes": 7138,
+    "sha256": "0bcdc95ae206e2c0c063e1a5f8864fe24135bfb46ab619398b8d7114c2feb7ee"
+  },
+  {
+    "vmFile": "live-wine6/01-wine6-compatibility.json",
+    "bytes": 4774,
+    "sha256": "b15944e3768ee4c5c36070a19a170f3e0dca4d866ea9accf7d04562990c10929"
+  },
+  {
+    "vmFile": "live-wine6/02-open-file-dialog.json",
+    "bytes": 5478,
+    "sha256": "fcb9dbaf63b969e0c65e1c0d2b491f4408a8a30e333acbfb6ebe021427475bfc"
+  },
+  {
+    "vmFile": "live-wine6/03-open-dialog-settled.json",
+    "bytes": 5478,
+    "sha256": "fcb9dbaf63b969e0c65e1c0d2b491f4408a8a30e333acbfb6ebe021427475bfc"
+  },
+  {
+    "vmFile": "live-wine6/04-file-menu-input.json",
+    "bytes": 5586,
+    "sha256": "6bf6be55f22579a760621aac6e53b590a9dd247f98b675ba9f7707e1df6301f5"
+  },
+  {
+    "vmFile": "live-wine6/05-after-keyboard-open.json",
+    "bytes": 5964,
+    "sha256": "8c3a4c8c1758092fceec6f5c178853a4b8f7befb693f0116f201eefda417a062"
+  },
+  {
+    "vmFile": "live-wine6/console.json",
+    "bytes": 3456,
+    "sha256": "2dea9fa4c2a48e95f0e4678479ece59e53429b73be4366373f2c6c1cfc19a312"
+  },
+  {
+    "vmFile": "native-display-settings.json",
+    "bytes": 253,
+    "sha256": "ed16aafc25c1388a37b8407fcd5c34a644efcb85dc9a20d78908e8a6bb2ceefe"
+  },
+  {
+    "vmFile": "rea-dependencies/001-initialize.json",
+    "bytes": 2953,
+    "sha256": "24123b78239636ea6c38507af37e20fc47fc973e2841b6faf5c4bd3c6217f580"
+  },
+  {
+    "vmFile": "rea-dependencies/003-et-info-imports.json",
+    "bytes": 159462,
+    "sha256": "e7f428f0681cba2bac64a445c3e98f73ce6789b9e7bf1866e9baa404c76cb976"
+  },
+  {
+    "vmFile": "rea-dependencies/004-et-share-imports.json",
+    "bytes": 194322,
+    "sha256": "5dc5b998edc009fd952ad084c23a676189ad0663d8c830e5f86e38a70ec76eae"
+  },
+  {
+    "vmFile": "rea-dependencies/005-save-dependency-evidence.json",
+    "bytes": 954,
+    "sha256": "515a06fae06213c67125c37da0f08f10e427df8554c92d741f9c467545d60181"
+  },
+  {
+    "vmFile": "rea-dependencies/dependency-evidence-bundle.json",
+    "bytes": 102183,
+    "sha256": "83622d6bfe9a793c91a1bfe732eb96201d1dce1ecd25b851fc826c697a1c0751"
+  },
+  {
+    "vmFile": "runtime/Modern/.compile-config.json",
+    "bytes": 2816,
+    "sha256": "11e1a83bd490863c1ffa40845e9e080ef490dba72d2825a1dfc05d7b5e8f86f8"
+  },
+  {
+    "vmFile": "runtime/Modern/.link-config.json",
+    "bytes": 23384,
+    "sha256": "644999847fda23e0d7107dce89b7c1ba2fc83399b9b1f36147ab3de323af30fe"
+  },
+  {
+    "vmFile": "vc6-extraction.json",
+    "bytes": 505,
+    "sha256": "1d26c68cab7f7976a86bdf089fec92ed746342ef74160d08666cba0a6d1aed95"
+  }
+]

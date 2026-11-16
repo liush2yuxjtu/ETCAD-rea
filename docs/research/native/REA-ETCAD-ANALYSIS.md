@@ -2,6 +2,8 @@
 
 调查日期：2026-11-16（Asia/Shanghai）。本轮已实际下载官方 ETCAD 学习版，在 VM 安装 REA、Ghidra 和完整 JDK，并通过 **MCP stdio JSON-RPC** 调用了 REA 工具。下文区分下载事实、静态观察、推断与尚未运行的 Windows 操作。
 
+后续第三轮已通过 WASM/Wine 在浏览器中运行原 EXE，取得原版工作台截图，但操作黑屏，未通过功能验收。见 [GUI 工具清单](GUI-TOOLS.md) 和 [WASM 兼容实验](wasm/WASM-FEASIBILITY.md)。本文后面“仍未运行”的范围描述对应本次静态调查，不将第三轮实验倒写成此前已经完成。
+
 ## 下载的具体样本
 
 官网 [ET 软件学习版及教学视频下载](https://www.etsystem.cn/News/detail.html?id=1039) 直接提供学习版包。使用其同主机 HTTPS 地址下载：[ET_PSV.rar](https://download.etsystem.cn/ET_PSV.rar)。

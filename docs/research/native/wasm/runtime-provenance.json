@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-16",
+  "targetExeSha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+  "sources": [
+    {
+      "name": "ET_PSV.rar",
+      "url": "https://download.etsystem.cn/ET_PSV.rar",
+      "bytes": 21624599,
+      "sha256": "28b001a8edf9e21385bc833ed448390c02547195a7facea6e3fff6a4f856a77e"
+    },
+    {
+      "name": "Boxedwine26R1Web.zip",
+      "url": "https://github.com/danoon2/Boxedwine/releases/download/26R1.0/Boxedwine26R1Web.zip",
+      "bytes": 122244710,
+      "sha256": "ebc634e921f7c65980a7094f3efad84873cede8011eb7dd204446ff1de982945"
+    },
+    {
+      "name": "VC6RedistSetup_deu.exe",
+      "url": "https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe",
+      "bytes": 1837888,
+      "sha256": "c2eb91d9c4448d50e46a32fecbcc3b418706d002beab9b5f4981de552098cee7"
+    },
+    {
+      "name": "TinyCore15Wine11.0-web-v39.zip",
+      "url": "https://boxedwine.org/v2/39/TinyCore15Wine11.0-web.zip",
+      "bytes": 96503977,
+      "sha256": "07a4bbb1e8de69f055c1ce67f39fcf9e892ea6c5b66f4fc8e0dcb9404bd3b60a"
+    },
+    {
+      "name": "NotoSansCJKsc-Regular.otf",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "name": "7z2606-linux-x64.tar.xz",
+      "url": "https://github.com/ip7z/7zip/releases/download/26.06/7z2606-linux-x64.tar.xz",
+      "bytes": 1575552,
+      "sha256": "2b539cf067b2ad48e1baa5093dbaa8818b73542d1222a0ffde9dc5f2922ea62e"
+    }
+  ],
+  "modernEmulator": {
+    "repository": "https://github.com/danoon2/Boxedwine",
+    "commit": "1dbddbb292a2119390d0c2af825b4460c0593854",
+    "emscripten": "7.0.0",
+    "initialWasmSha256": "98be64774b4e4a59447c00c66a74a97319903694f5654a811e869547dca55d2e",
+    "experimentalPatchedWasmSha256": "af5fec4bd5403bb154a257515526751c8b78bbc7fd0a2ce7edbbb32afee961b3",
+    "result": "FAIL: black render surface; no functional acceptance"
+  },
+  "publishedFiles": {
+    "01-native-gui.png": {
+      "bytes": 72755,
+      "sha256": "66ee961a3b44af8d9c38231df88a52d5365c990b9cd77bb95b859685bb45d24c"
+    },
+    "02-after-open-click.png": {
+      "bytes": 109448,
+      "sha256": "5c9bbec7a92303053acfe1e8164927799778a9576fe5441033fd5310102eef4c"
+    },
+    "03-current-engine.png": {
+      "bytes": 52821,
+      "sha256": "ef7b8657bf66e9ecdc5da1cf4a114063a9cc12af4a1eb2566e16a212582b315f"
+    },
+    "native-gui-startup.json": {
+      "bytes": 3226,
+      "sha256": "b4d45e4270abf82230d00c8349b3174013e96737973b61c60e4d3fe1127c4f47"
+    },
+    "native-open-failure.json": {
+      "bytes": 3360,
+      "sha256": "b47b21856e93ce06bec95b9879317015ba994caef8b2747267fa44f44e00005b"
+    },
+    "current-engine-failure.json": {
+      "bytes": 10580,
+      "sha256": "a53b3e83013ac4f830e170afca2ec9c052869c2fce2c4ff9b1f2b7f15172b86a"
+    },
+    "initial-import-failure.json": {
+      "bytes": 5889,
+      "sha256": "93dd22d84eb1989cb9366a4cba1e647629526ede1e5a2af29a4829db13164b0b"
+    },
+    "microsoft-runtime-extraction.json": {
+      "bytes": 505,
+      "sha256": "1d26c68cab7f7976a86bdf089fec92ed746342ef74160d08666cba0a6d1aed95"
+    }
+  },
+  "vercel": {
+    "projectsCreated": 0,
+    "deploymentsCreated": 0,
+    "status": "Not deployed; original native application did not pass browser compatibility acceptance."
+  }
+}

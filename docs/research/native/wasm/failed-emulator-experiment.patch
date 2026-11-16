@@ -1,0 +1,65 @@
+diff --git a/project/emscripten/boxedwine-shell.js b/project/emscripten/boxedwine-shell.js
+index afdedac..82a00a0 100644
+--- a/project/emscripten/boxedwine-shell.js
++++ b/project/emscripten/boxedwine-shell.js
+@@ -2242,6 +2242,7 @@
+             }
+           }
+           return function(width, height, buffer, presentState) {
++            Module.etSoftwareDesktopPresented = true;
+             if (!canvas) {
+               canvas = document.getElementById('boxedwine-webgl-canvas-0');
+             }
+@@ -2276,8 +2277,10 @@
+             if (!canvasFrame || !canvas) {
+               return;
+             }
+-            var width = Number(canvas.width) || 800;
+-            var height = Number(canvas.height) || 600;
++            var sizeCanvas = Module && Module.etSoftwareDesktopPresented
++              ? document.getElementById('boxedwine-webgl-canvas-0') || canvas : canvas;
++            var width = Number(sizeCanvas.width) || 800;
++            var height = Number(sizeCanvas.height) || 600;
+             canvasFrame.style.setProperty("--boxedwine-canvas-width", width);
+             canvasFrame.style.setProperty("--boxedwine-canvas-height", height);
+           };
+diff --git a/source/opengl/sdl/sdlgl.cpp b/source/opengl/sdl/sdlgl.cpp
+index e6be3e8..a9ecf74 100644
+--- a/source/opengl/sdl/sdlgl.cpp
++++ b/source/opengl/sdl/sdlgl.cpp
+@@ -340,18 +340,19 @@ static void resizeWebGLCanvas(SDL_Window* window, U32 cx, U32 cy) {
+     }
+     int currentWidth = 0;
+     int currentHeight = 0;
++    const bool presentVisible = (SDL_GetWindowFlags(window) & SDL_WINDOW_SHOWN) != 0;
+     bool canvasMatches = emscripten_get_canvas_element_size("#canvas", &currentWidth, &currentHeight) == EMSCRIPTEN_RESULT_SUCCESS
+             && currentWidth == (int)cx && currentHeight == (int)cy;
+     bool webglCanvasMatches = emscripten_get_canvas_element_size("#boxedwine-webgl-canvas-0", &currentWidth, &currentHeight) == EMSCRIPTEN_RESULT_SUCCESS
+             && currentWidth == (int)cx && currentHeight == (int)cy;
+-    if (canvasMatches && webglCanvasMatches) {
++    if (canvasMatches && (webglCanvasMatches || !presentVisible)) {
+         return;
+     }
+     SDL_SetWindowSize(window, cx, cy);
+     if (!canvasMatches) {
+         emscripten_set_canvas_element_size("#canvas", cx, cy);
+     }
+-    if (!webglCanvasMatches) {
++    if (presentVisible && !webglCanvasMatches) {
+         emscripten_set_canvas_element_size("#boxedwine-webgl-canvas-0", cx, cy);
+     }
+ }
+@@ -1086,6 +1087,13 @@ void KOpenGLSdl::glSwapBuffers(KThread* thread, const std::shared_ptr<XDrawable>
+         pglFlush();
+         return;
+     }
++#ifdef __EMSCRIPTEN__
++    if (d->isWindow && !std::static_pointer_cast<XWindow>(d)->isThisAndAncestorsMapped()) {
++        // Off-screen capability probes must not replace the visible GDI desktop.
++        if (pglFlush) pglFlush();
++        return;
++    }
++#endif
+     SDLGlWindowPtr window;
+     {
+         BOXEDWINE_CRITICAL_SECTION_WITH_MUTEX(windowMutex);
