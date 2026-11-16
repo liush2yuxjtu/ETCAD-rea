@@ -1,0 +1,59 @@
+$ npm test
+
+> etcad-rea@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ both base templates create usable geometry with matching side seams (31.639764ms)
+✔ measurement changes drive front and back while retaining manual point and curve edits (0.984919ms)
+✔ geometric lengths use curves rather than their endpoint chord (0.247182ms)
+✔ seam polygon offsets a known square by the requested millimetres (0.324894ms)
+✔ crossing contours and mismatched side seams fail the public review gate (5.94184ms)
+✔ review freezes geometry, blocks unresolved findings and approves the exact revision (3.026653ms)
+✔ import rejects corrupt data, out-of-range numbers and stale approved state (3.265513ms)
+✔ SVG is physically sized, contains a 100 mm calibration line, and escapes user content (1.315951ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 211.640768
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+EXIT_CODE=0
+
+$ npm run check
+
+> etcad-rea@0.1.0 check
+> node --check src/app.js && node --check src/pattern.js && node --check tools/serve.mjs
+
+EXIT_CODE=0
+
+$ npm run verify:ui
+
+> etcad-rea@0.1.0 verify:ui
+> python3 tools/verify_ui.py
+
+PASS launch: Chinese UI and two rendered pattern pieces; initial screenshot captured
+PASS create: New named bodice saved independently of the original project; cm converted to mm
+PASS edit: Numeric coordinate edit, real pointer point/curve drags, undo and redo persisted
+PASS parameters: Chest drives both pieces and preserves the manual neckline offset
+PASS measure: Two real canvas clicks produce a visible straight-line measurement
+PASS properties: Front/back notches and Chinese material name persisted
+PASS review-and-reload: Unresolved comment blocks approval; resolved version becomes read-only and remains so after reload
+PASS export: JSON download read back; millimetre SVG opened and rendered by Chromium
+PASS nearby-edge: A deliberately mismatched side seam fails checks and disables submission
+PASS import-and-reload: JSON round-trip retains exact geometry and review state; malformed import leaves the current project intact
+PASS library: Original and new projects remain independently available
+PASS mobile: 390 px viewport has no horizontal page overflow; skirt creation works
+PASS real-surface verification
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+EXIT_CODE=0

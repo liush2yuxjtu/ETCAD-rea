@@ -1,0 +1,20 @@
+{
+  "repository": "liush2yuxjtu/dot-pi",
+  "commit": "924bf755028d6b0fc6096c3fcf4d9c97f87a7693",
+  "directory": "agent/skills/verify",
+  "files": {
+    "SKILL.md": "14293a5fb821db11394bf2dcb6ed85c5eb0a7d28f7209e74dd0fa7f5c6638d5a",
+    "evals/evals.json": "8cab9d70ff248dd75023bafa45dd120ecd695f44ccfab6276ce935973806c681",
+    "evals/runtime_cases.json": "095ce827bba578e44cce59b068a17fe328ef93b6e9dae7abac8901b413fc9f77",
+    "evals/trigger_evals.json": "b409466d55eea48124f35444d63a25145508ea5788c12aa7d7ac8813b9d993c6",
+    "references/cli.md": "2166ff16087ac58341a9b7d403b9bb53b23d42dca57268aa5a30abb6d6a1a43b",
+    "references/feishu-native-cards.md": "e20800b60f8104fb033c8d7662ac9fcf3b9f63e8bb2aa49f66ba908c8e4d5342",
+    "references/provenance.md": "fceabf1795f3a8394670f401e84564443062dbcda51b7cc402f0a1c43363d77c",
+    "references/recent-project-patterns.md": "eec92aafb788f12be1a2923315ad372fc26b0c4624a1bb1be3896c7c302cf19d",
+    "references/server-api.md": "e019d3d85f3ba2063005608d75d3ca778268c14241c7373e1152e9d5e3642309"
+  },
+  "projectAdditions": [
+    "references/etcad-rea.md",
+    "SOURCE.json"
+  ]
+}

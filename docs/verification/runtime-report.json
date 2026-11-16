@@ -1,0 +1,60 @@
+{
+  "verdict": "PASS",
+  "url": "http://127.0.0.1:4187",
+  "timestampUtc": "2026-11-16T04:13:17Z",
+  "browser": "156.0.8078.79",
+  "method": "Python Playwright + real Chromium mouse/keyboard input",
+  "steps": [
+    {
+      "step": "launch",
+      "observation": "Chinese UI and two rendered pattern pieces; initial screenshot captured"
+    },
+    {
+      "step": "create",
+      "observation": "New named bodice saved independently of the original project; cm converted to mm"
+    },
+    {
+      "step": "edit",
+      "observation": "Numeric coordinate edit, real pointer point/curve drags, undo and redo persisted"
+    },
+    {
+      "step": "parameters",
+      "observation": "Chest drives both pieces and preserves the manual neckline offset"
+    },
+    {
+      "step": "measure",
+      "observation": "Two real canvas clicks produce a visible straight-line measurement"
+    },
+    {
+      "step": "properties",
+      "observation": "Front/back notches and Chinese material name persisted"
+    },
+    {
+      "step": "review-and-reload",
+      "observation": "Unresolved comment blocks approval; resolved version becomes read-only and remains so after reload"
+    },
+    {
+      "step": "export",
+      "observation": "JSON download read back; millimetre SVG opened and rendered by Chromium"
+    },
+    {
+      "step": "nearby-edge",
+      "observation": "A deliberately mismatched side seam fails checks and disables submission"
+    },
+    {
+      "step": "import-and-reload",
+      "observation": "JSON round-trip retains exact geometry and review state; malformed import leaves the current project intact"
+    },
+    {
+      "step": "library",
+      "observation": "Original and new projects remain independently available"
+    },
+    {
+      "step": "mobile",
+      "observation": "390 px viewport has no horizontal page overflow; skirt creation works"
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "cleanup": "Isolated browser context closed; app server managed separately"
+}

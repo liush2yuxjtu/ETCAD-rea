@@ -1,0 +1,22 @@
+[
+  {"query":"Use /verify before I open this PR.","should_trigger":true},
+  {"query":"Verify this bug fix end to end before shipping.","should_trigger":true},
+  {"query":"Run the relevant tests locally and then confirm the UI really works.","should_trigger":true},
+  {"query":"Can you validate this API change against the running server?","should_trigger":true},
+  {"query":"Check this CLI fix before we make a PR.","should_trigger":true},
+  {"query":"Prove this regression is fixed with runtime evidence.","should_trigger":true},
+  {"query":"Please do pre-PR acceptance on this change.","should_trigger":true},
+  {"query":"Run tests and exercise the real product surface for this patch.","should_trigger":true},
+  {"query":"Confirm this agent workflow change actually works.","should_trigger":true},
+  {"query":"Before shipping, verify the changed behavior and an edge case.","should_trigger":true},
+  {"query":"Write unit tests for this new parser.","should_trigger":false},
+  {"query":"Refactor this function for readability.","should_trigger":false},
+  {"query":"Explain why this test is failing.","should_trigger":false},
+  {"query":"Review this diff for code style.","should_trigger":false},
+  {"query":"Create a GitHub Actions workflow for linting.","should_trigger":false},
+  {"query":"Summarize the test suite.","should_trigger":false},
+  {"query":"Design a QA strategy for next quarter.","should_trigger":false},
+  {"query":"Generate mocks for this service.","should_trigger":false},
+  {"query":"Update the README installation steps.","should_trigger":false},
+  {"query":"Tell me what this stack trace means.","should_trigger":false}
+]

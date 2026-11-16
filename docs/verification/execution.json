@@ -1,0 +1,33 @@
+{
+  "verdict": "PASS",
+  "startedAtUtc": "2026-11-16T04:13:05Z",
+  "endedAtUtc": "2026-11-16T04:13:17Z",
+  "url": "http://127.0.0.1:4187",
+  "commands": [
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "check"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "verify:ui"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "candidate": "working-tree source bytes in source-manifest.json",
+  "cleanup": "Owned server terminated; UI runner closes isolated browser context"
+}

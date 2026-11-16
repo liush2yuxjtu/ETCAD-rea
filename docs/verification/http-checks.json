@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/src/app.js",
+    "status": 200,
+    "contentType": "text/javascript; charset=utf-8"
+  },
+  {
+    "path": "/.git/config",
+    "status": 404,
+    "contentType": null
+  },
+  {
+    "path": "/src/%2e%2e/README.md",
+    "status": 404,
+    "contentType": null
+  },
+  {
+    "path": "/src/missing.js",
+    "status": 404,
+    "contentType": null
+  }
+]

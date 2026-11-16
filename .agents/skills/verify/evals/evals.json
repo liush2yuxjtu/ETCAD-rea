@@ -1,0 +1,39 @@
+{
+  "skill_name": "verify",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I changed the login redirect logic. Verify it before I open a PR.",
+      "expected_output": "Runs the relevant existing local tests first, launches the real app, exercises the changed login redirect end to end, probes a nearby edge case, and returns one evidence-backed verdict.",
+      "files": [],
+      "expectations": [
+        "Runs an existing relevant local test command before runtime verification",
+        "Does not treat passing tests as a substitute for runtime observation",
+        "Exercises the changed behavior through a public/user-facing surface",
+        "Reports raw evidence and exactly one of PASS, FAIL, BLOCKED, or SKIP"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "This is a CLI flag fix. Use /verify before the PR.",
+      "expected_output": "Runs relevant CLI tests locally, invokes the public CLI as a user would, checks the changed flag plus one nearby boundary case, and reports one verdict.",
+      "files": [],
+      "expectations": [
+        "Runs relevant existing local tests",
+        "Invokes the public CLI rather than only importing an internal helper",
+        "Includes at least one adjacent edge probe",
+        "Preserves command/output/exit-status evidence"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I only changed README wording. Verify this change.",
+      "expected_output": "Recognizes that there is no executable behavior to observe and returns SKIP without inventing runtime work.",
+      "files": [],
+      "expectations": [
+        "Does not fabricate a runtime verification surface",
+        "Returns SKIP with a concise reason"
+      ]
+    }
+  ]
+}

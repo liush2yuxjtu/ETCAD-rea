@@ -1,0 +1,16 @@
+{
+  "name": "etcad-rea",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "面向中文用户的独立二维服装纸样工作台",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "start": "node tools/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && node --check src/pattern.js && node --check tools/serve.mjs",
+    "verify:ui": "python3 tools/verify_ui.py",
+    "verify": "python3 tools/verify_all.py"
+  },
+  "engines": {"node": ">=20"}
+}

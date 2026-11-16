@@ -1,0 +1,11 @@
+{
+  "index.html": "c4fa09edbc37ef0bd6bcaf19890f4bad49273f6ceedc45c0adb55aa0abce356f",
+  "package.json": "54091a085c3708533dfb511408051a0183ca769004b4cea70e18bb337f89a6cd",
+  "src/app.js": "b31b589483b084c89f781bab25b07c1f2bd9866a62017be1f2ebce650bdd8f9b",
+  "src/pattern.js": "d381ab64a698c2273fbe8cd20d3b7ecc320a7b7a5fc817974d48a9e966100fc6",
+  "src/style.css": "f70a8f983f7bf6d59f5c9a7b5c7dee44b9eacd2d0303ba0b9cf2f3cd9bba9df4",
+  "tests/pattern.test.mjs": "cf730e4801fa0012ca2301963ae7a0a04d29b54b9b22c16e903d608a0534d5b9",
+  "tools/verify_all.py": "27aa4da2a8a7ead9096b485a0e3b24feeda1af7fbc334bead0d8fccf4e334e74",
+  "tools/verify_ui.py": "4efb877add0e3f75fceb6376def00db51f41bdfac9ca3da396100e4caa86499d",
+  "tools/serve.mjs": "2545a3d45c98a920afdb7092f6af2101962f6750f55f2d68fcb8f0c6ee79c80f"
+}
