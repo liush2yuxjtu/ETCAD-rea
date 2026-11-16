@@ -1,0 +1,459 @@
+[
+  {
+    "file": "001-initialize.json",
+    "rawSha256": "24123b78239636ea6c38507af37e20fc47fc973e2841b6faf5c4bd3c6217f580",
+    "isError": false
+  },
+  {
+    "file": "003-ready-session.json",
+    "rawSha256": "a9f12e35c34cc70d594dafbee50696cc4ddc36cef908312c54c15399015844ff",
+    "isError": false
+  },
+  {
+    "file": "004-open-etcom.json",
+    "rawSha256": "c0f4e1b0db707d7c75909bd70254f606b0a2255b4bb7107cabdfbf25d809c57a",
+    "isError": false
+  },
+  {
+    "file": "005-etcom-resources.json",
+    "rawSha256": "49c4d0927d9aa983cd80f41ab72e7fbd174c426515d1598d15af144d12f93ab9",
+    "isError": false,
+    "evidence_id": "ev_e537a92dd0cfa81ad9e6dd6e1ce9bb3a299381b553211ab05a1ca1b0c7be12ab",
+    "operation": "inspect_pe_resources",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-pe-resources",
+      "name": "REA PE resource parser",
+      "version": "1"
+    },
+    "limitations": [
+      "Static PE32/PE32+ type/name/language resource inventory; payloads other than RT_GROUP_ICON remain opaque.",
+      "Icon candidates are resource-table relationships. Language fallback, image decoding and actual shell/window loading are not observed.",
+      "Exact shared byte ranges are retained; non-identical overlapping resource structures or payloads are rejected."
+    ]
+  },
+  {
+    "file": "006-etcom-strings.json",
+    "rawSha256": "9be9b08ea575d05833e62672295e4970dab2585a3bc0ece4205882ed7f64b226",
+    "isError": false,
+    "evidence_id": "ev_7a0cffb7e89e00f4e9c86e356e48c2b05db47991c3e7b1e9d1b820497f232088",
+    "operation": "list_strings",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Only Ghidra-defined string Data is observed; packed or undefined string bytes may be absent. Completeness applies to that inventory, and an empty search does not establish that text is absent from the artifact. If an address is known, use read_bytes and xrefs to inspect bytes and references.",
+      "Charset is reported, while a non-missing terminator cannot distinguish a present terminator from a fixed or Pascal layout."
+    ]
+  },
+  {
+    "file": "007-curve-edit-handler.json",
+    "rawSha256": "fa6ea900e1237d3674c29c48251607fb9442a3e2225db05f9eca7717b859048b",
+    "isError": true
+  },
+  {
+    "file": "008-extract-piece-handler.json",
+    "rawSha256": "bd0882ad99c284b10444fafb3de20b6be46087679b9968ef0ff9de73478b6d22",
+    "isError": true
+  },
+  {
+    "file": "009-refresh-seams-handler.json",
+    "rawSha256": "a074f28a98860c42b74d9e3265bdca1c27778c06871101670d02297e98ae218c",
+    "isError": true
+  },
+  {
+    "file": "010-safety-check-handler.json",
+    "rawSha256": "05c42585c4387a6e52d3b71aa5654d00b116f868103a16f4c4d17d3eda53083a",
+    "isError": true
+  },
+  {
+    "file": "011-fit-check-handler.json",
+    "rawSha256": "73c3b7dbf4c342ea09577e7aa0d214d1aab38a9d5ebfb34157e198de7290f677",
+    "isError": true
+  },
+  {
+    "file": "012-size-table-handler.json",
+    "rawSha256": "fac64aa422b192265a476dff68d2ffb769cd120554588f33ac36f2565360f697",
+    "isError": true
+  },
+  {
+    "file": "013-new-document-handler.json",
+    "rawSha256": "5df6ca124812c3b837249355d6869b43856fb226a31982b2a52f217e71d58d46",
+    "isError": true
+  },
+  {
+    "file": "014-etcom-procedures.json",
+    "rawSha256": "0979f4f2289ccbde0e24b1a7b5b78bba1fd2f7078e229eeecae8b642d298b706",
+    "isError": true
+  },
+  {
+    "file": "015-observed-command-procedures.json",
+    "rawSha256": "5b17c37e2b962dd844eedcccf9b066d4fd6c6d01b10f215fa06733c2dd25ad43",
+    "isError": false,
+    "evidence_id": "ev_128a97d5cca9b0a71f50144d9a28ed9afbdc09519ae2aa06e34420a16ea97bcd",
+    "operation": "search_procedures",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values."
+    ]
+  },
+  {
+    "file": "016-procedure-page.json",
+    "rawSha256": "6e077dc7a8541b65ec408941537156ddb92f4257a5db079f7768605e1cda1198",
+    "isError": false,
+    "evidence_id": "ev_c7223d549c2d9724529a2630915f707b713f9b18b595d08ec29ec611d039df42",
+    "operation": "inspect_analysis_view",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-analysis-view",
+      "name": "REA analysis view projection",
+      "version": "1"
+    },
+    "limitations": [
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "External functions and local thunks are distinct; procedure metadata identifies both and preserves a thunk target when Ghidra resolves one.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results."
+    ]
+  },
+  {
+    "file": "017-curve-edit-decompiled.json",
+    "rawSha256": "346c8f161eb7eea3836cfbd0af3ab1a3028b95cc707c229fb985c2e61cfd02b7",
+    "isError": true
+  },
+  {
+    "file": "018-local-procedure-page.json",
+    "rawSha256": "b2c2a018a5e29569f11accbb628d773fed063f2249d165ccb2d1d9d30592f3e2",
+    "isError": false,
+    "evidence_id": "ev_6101b5153d617521bde16cc430dc68965174c614242808c6834f645e6b4c7b08",
+    "operation": "inspect_analysis_view",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-analysis-view",
+      "name": "REA analysis view projection",
+      "version": "1"
+    },
+    "limitations": [
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "External functions and local thunks are distinct; procedure metadata identifies both and preserves a thunk target when Ghidra resolves one.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results."
+    ]
+  },
+  {
+    "file": "019-curve-handler-instruction.json",
+    "rawSha256": "1713d1b558a0c4b44f98d06b4ececef49a47cc25f277211d48f0f2806c7158e8",
+    "isError": false,
+    "evidence_id": "ev_10a675a0c9565845ebf6253867fd528a8fbdb7df1cd5fb87c8c2bff9a0d4d40d",
+    "operation": "inspect_native_instruction",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Ghidra's ReferenceManager returned no actionable references to this address in this session. An empty list reflects what this analysis resolved, not proof that the address is unreferenced; synthetic entry-point references are omitted. No independent in-product cross-check exists for this empty result: surrounding disassembly can confirm direct references at a code address, and data or string addresses need an external disassembly scan (for example otool -tV, pairing adrp with add or ldr) before concluding there are no xrefs."
+    ]
+  },
+  {
+    "file": "020-curve-feature-trace.json",
+    "rawSha256": "de7bf0a8da798f9591a8e642cabdd8e758f92727658555ac63d55161adbae5f7",
+    "isError": false,
+    "evidence_id": "ev_dcf16cec749bc11d207dc3f0bc7577fc7882ca967657c96fae10078a01a5c9a2",
+    "operation": "trace_feature",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "limitations": [
+      "Derived by an REA composed workflow.",
+      "Reference queries cover only each matched start address, not interior bytes of strings and procedures. Empty references and truncated: false do not establish complete reference coverage.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure: An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: For this case-insensitive literal search, raw_result contains Ghidra's candidate rows before REA's Unicode-aware filtering; normalized_result contains the matches.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+      "Ghidra (ghidra 12.1.4) search_strings: Only Ghidra-defined string Data is observed; packed or undefined string bytes may be absent. Completeness applies to that inventory, and an empty search does not establish that text is absent from the artifact. If an address is known, use read_bytes and xrefs to inspect bytes and references.",
+      "Ghidra (ghidra 12.1.4) xrefs: Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "Ghidra (ghidra 12.1.4) xrefs: The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata."
+    ]
+  },
+  {
+    "file": "021-extract-feature-trace.json",
+    "rawSha256": "d2f3a5f786bd705c15911f781ff11698677997fb68e14d0af192758eb3ed5ffc",
+    "isError": false,
+    "evidence_id": "ev_57e887fa928a04e999c52e6f38dffdd245178194b3f5e69ddbe42b703c0c821d",
+    "operation": "trace_feature",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "limitations": [
+      "Derived by an REA composed workflow.",
+      "Reference queries cover only each matched start address, not interior bytes of strings and procedures. Empty references and truncated: false do not establish complete reference coverage.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure: An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: For this case-insensitive literal search, raw_result contains Ghidra's candidate rows before REA's Unicode-aware filtering; normalized_result contains the matches.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+      "Ghidra (ghidra 12.1.4) search_strings: Only Ghidra-defined string Data is observed; packed or undefined string bytes may be absent. Completeness applies to that inventory, and an empty search does not establish that text is absent from the artifact. If an address is known, use read_bytes and xrefs to inspect bytes and references.",
+      "Ghidra (ghidra 12.1.4) xrefs: Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "Ghidra (ghidra 12.1.4) xrefs: The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata."
+    ]
+  },
+  {
+    "file": "022-check-feature-trace.json",
+    "rawSha256": "285630f0a3c369c0084b40ab210351e7bdb01ccb869385448449f86dc544e0c5",
+    "isError": false,
+    "evidence_id": "ev_a9e6a1b4125dc928a3fd90ca431303ab1549ec78a584f6b4b512f83f919544fb",
+    "operation": "trace_feature",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "rea-workflow",
+      "name": "REA composed investigation workflow",
+      "version": "1"
+    },
+    "limitations": [
+      "Derived by an REA composed workflow.",
+      "Reference queries cover only each matched start address, not interior bytes of strings and procedures. Empty references and truncated: false do not establish complete reference coverage.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure, search_procedures, search_strings, xrefs: The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra (ghidra 12.1.4) resolve_containing_procedure: An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: For this case-insensitive literal search, raw_result contains Ghidra's candidate rows before REA's Unicode-aware filtering; normalized_result contains the matches.",
+      "Ghidra (ghidra 12.1.4) search_procedures, search_strings: Regex mode uses Java Pattern semantics. Matcher or compiler stack exhaustion returns a resource constraint without closing the session; literal mode avoids regex recursion and returns complete matching values.",
+      "Ghidra (ghidra 12.1.4) search_strings: Only Ghidra-defined string Data is observed; packed or undefined string bytes may be absent. Completeness applies to that inventory, and an empty search does not establish that text is absent from the artifact. If an address is known, use read_bytes and xrefs to inspect bytes and references.",
+      "Ghidra (ghidra 12.1.4) xrefs: Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "Ghidra (ghidra 12.1.4) xrefs: The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata."
+    ]
+  },
+  {
+    "file": "023-curve-operation-code.json",
+    "rawSha256": "634ca72822a28223e96a6e2ef93b4c2298283565d40c4ea382aedeafcd0b12cf",
+    "isError": false,
+    "evidence_id": "ev_3a9954535ca0bc4a852cab6c1ae3cea8793c4b576e5182267bf84f7cc2a2a5ef",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+      "External functions and functions without an analyzable body return null; other decompiler failures remain explicit."
+    ]
+  },
+  {
+    "file": "024-extract-operation-code.json",
+    "rawSha256": "1f6ad66ca6a5bfaa451a6192b0ea2fcc2b61019e8b51fd2483246b4c24ef2dcd",
+    "isError": false,
+    "evidence_id": "ev_55cecb954ba7281ac4819a43c75b808e3d0387164b9be1c74e1099ec7afade1a",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+      "External functions and functions without an analyzable body return null; other decompiler failures remain explicit."
+    ]
+  },
+  {
+    "file": "025-check-dialog-code.json",
+    "rawSha256": "1630042b183ac203d5b5acada4317eb2ea3f97d14e35bcd1f68a3f9c0ae43133",
+    "isError": false,
+    "evidence_id": "ev_df4e0d24ad8d51ed433e6d15e00fd1f30149aa93136d1ddbd70a16d8f25a7627",
+    "operation": "procedure_pseudo_code",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+      "External functions and functions without an analyzable body return null; other decompiler failures remain explicit."
+    ]
+  },
+  {
+    "file": "026-handler-seed-guidance.json",
+    "rawSha256": "1222e0a843a8b637eecc414ed881552f9b6d3bbd804433f3b994cb60b07147f1",
+    "isError": false,
+    "evidence_id": "ev_ae23eb600d6b4651d1f8d8729dd80ce5a72c22f19e986cbf1279fb42db6df158",
+    "operation": "resolve_containing_procedure",
+    "subject": {
+      "name": "ETCOM_PSV.exe",
+      "digest": {
+        "sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba"
+      },
+      "local_path": "/workspace/work/et-binaries/learning-edition/ET_PSV/ET_学习版/ETCOM_PSV.exe",
+      "format": "pe",
+      "architecture": "x86"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "Ghidra Program checkpoint mode is disabled: closing discards metadata edits; original executable bytes are unchanged. For stock ELF/PE/Mach-O on Linux/macOS, set REA_GHIDRA_CHECKPOINT_DIR to a private absolute directory before starting REA (restart MCP after changing its startup environment).",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "An exact external entry resolves to its observed function identity even when its body is empty. This does not establish mapped executable bytes or containment of nearby external addresses."
+    ]
+  },
+  {
+    "file": "027-export-default-evidence.json",
+    "rawSha256": "662a53fa36074282ab7fd44b6691fbb6fc563e5cea4a2ef1ccf0f6eeaf0279f5",
+    "isError": false
+  },
+  {
+    "file": "028-close-default-analysis.json",
+    "rawSha256": "904d9316a96146437bc3c4607a4cf46cad0d1cffc4107e8f0dac30a1836734ed",
+    "isError": false
+  }
+]

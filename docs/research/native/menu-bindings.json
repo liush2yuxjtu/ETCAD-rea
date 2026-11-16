@@ -1,0 +1,170 @@
+{
+  "parentReaEvidenceId": "ev_e537a92dd0cfa81ad9e6dd6e1ce9bb3a299381b553211ab05a1ca1b0c7be12ab",
+  "decoding": "Supplementary UTF-16 Windows MENU decoding from payload ranges inventoried by REA inspect_pe_resources",
+  "menus": [
+    {
+      "menu": {
+        "kind": "id",
+        "id": 128
+      },
+      "ancestors": [
+        "文件"
+      ],
+      "label": "新建文档\tCtrl+N",
+      "commandId": 57600,
+      "fileOffset": 4076196
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "检测"
+      ],
+      "label": "裁片情报",
+      "commandId": 33321,
+      "fileOffset": 4077190
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "设置"
+      ],
+      "label": "尺寸表",
+      "commandId": 33211,
+      "fileOffset": 4077272
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "打版图标工具",
+        "打版五"
+      ],
+      "label": "缝边刷新\tAlt+S",
+      "commandId": 32846,
+      "fileOffset": 4079328
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "打版图标工具",
+        "打版五"
+      ],
+      "label": "缝边宽度",
+      "commandId": 32828,
+      "fileOffset": 4079354
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "打版图标工具",
+        "打版五"
+      ],
+      "label": "裁片属性",
+      "commandId": 33250,
+      "fileOffset": 4079368
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "打版图标工具",
+        "打版五"
+      ],
+      "label": "提取裁片",
+      "commandId": 32852,
+      "fileOffset": 4079434
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "检查与测量"
+      ],
+      "label": "线上两点拼合检查\t Ctrl-5",
+      "commandId": 33410,
+      "fileOffset": 4079674
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "检查与测量"
+      ],
+      "label": "拼合检查\tCtrl+4",
+      "commandId": 33242,
+      "fileOffset": 4079754
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "检查与测量"
+      ],
+      "label": "安全检测",
+      "commandId": 34026,
+      "fileOffset": 4079816
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "推版图标工具",
+        "推版一"
+      ],
+      "label": "尺寸表设置",
+      "commandId": 33211,
+      "fileOffset": 4079892
+    },
+    {
+      "menu": {
+        "kind": "id",
+        "id": 180
+      },
+      "ancestors": [
+        "图标工具",
+        "智能工具条"
+      ],
+      "label": "曲线编辑",
+      "commandId": 32794,
+      "fileOffset": 4080602
+    }
+  ],
+  "versionDeclaration": [
+    2009,
+    1,
+    1,
+    0
+  ]
+}

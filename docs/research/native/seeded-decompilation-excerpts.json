@@ -1,0 +1,178 @@
+[
+  {
+    "evidenceId": "ev_0786885a640d701510cc0f336519d1501cafd9b14ee309b3b41f7c189843e72f",
+    "parameters": {
+      "procedure": "ETCAD_candidate_curve_edit"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_006aff40(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_ce90932c788dd7623e7723daa34335855d5ee7086c8316ef21ec38dc5e08dc18",
+    "parameters": {
+      "procedure": "FUN_006aff40"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "pvVar1 = operator_new(0x1c8);",
+      "FUN_00482bd0();",
+      "FUN_006af3b0();",
+      "FUN_00482c50();",
+      "FUN_00473130();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_35aa6ab99ccfb3c8f1bc3c30f121b82a38e8d20a04b02424baff8f51b10b79a2",
+    "parameters": {
+      "procedure": "ETCAD_candidate_extract_piece"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_005d50a0(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_afc801d11f388719457520a0c8ab2d9163cb84b2da87c3c09e2da60bb8a64b8d",
+    "parameters": {
+      "procedure": "ETCAD_candidate_refresh_seams"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_0066da70(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_14484fafee31016ecd6030852e95225e7020e8205ddfbc9330ec8c08e77b3f7d",
+    "parameters": {
+      "procedure": "ETCAD_candidate_safety_check"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_00635ca0(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_b7d571017a31f4642842cb5e4519c4aade83c8858504037a03b834cec7ea1115",
+    "parameters": {
+      "procedure": "ETCAD_candidate_fit_check"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_006828d0(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_6112f1186fffb123ceb67bda1675b82d8058f03e4e59bd9166b5697633bf09da",
+    "parameters": {
+      "procedure": "ETCAD_candidate_size_table"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "uVar1 = FUN_00490be0();",
+      "FUN_006c0ad0(uVar1);"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_7ffef89a90724d91e333d5d61c24b226fd3d6b7df20c5f9b1733e003a5cc6b30",
+    "parameters": {
+      "procedure": "FUN_006af3b0"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "CString::operator=((CString *)(in_ECX + 2),(ushort *)u_HA_PD_Spline_Edition_007ac5d0);",
+      "*(undefined4 *)(param_1 + 0x58) = 0x3d;",
+      "in_ECX[3] = 0x3d;",
+      "FUN_005473b0();",
+      "FUN_005210b0();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_2e3c567719f2d6c2c30c7380f82a9dfc9ac83a03d8f24569a5319c0457dde89a",
+    "parameters": {
+      "procedure": "FUN_005d50a0"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "pvVar1 = operator_new(0xd0);",
+      "FUN_00482bd0();",
+      "FUN_005d3370();",
+      "FUN_00482c50();",
+      "FUN_00473130();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_e01f3ff91f98628af7d04ef2465edd1e03842e7dbf0370ccbe88fb62c47c7232",
+    "parameters": {
+      "procedure": "FUN_00635ca0"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "pvVar1 = operator_new(0x104);",
+      "FUN_00482bd0();",
+      "FUN_00633c00();",
+      "FUN_00482c50();",
+      "FUN_00473130();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_f2a2bca3477adb9d0a4ba3ccfa9fe088e7be3ddca063ea1580cf02cfec24dc36",
+    "parameters": {
+      "procedure": "FUN_006c0ad0"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "CDialog::DoModal(local_57c);",
+      "FUN_00415d20(0);",
+      "FUN_00415e40();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_f8317495c24ec8c1687537e73c8d35a2767eb25bc6752476eda7c53e63284c3a",
+    "parameters": {
+      "procedure": "FUN_005d3370"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "CString::operator=((CString *)(in_ECX + 2),(ushort *)u_HA_PD_Hand_Make_Loop_007a2b78);",
+      "*(undefined4 *)(param_1 + 0x58) = 0x6a;",
+      "in_ECX[3] = 0x6a;",
+      "FUN_005473b0();",
+      "FUN_006e6f50(0,10);",
+      "FUN_006e8ad0();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  },
+  {
+    "evidenceId": "ev_1189f05b7bccd55c1fac17641cb976426ff7411c81a245689a03166f03ffb731",
+    "parameters": {
+      "procedure": "FUN_00633c00"
+    },
+    "analysisProfileDigest": "f8034585f88461ea0c94f6d9faf5962e664343404393a3a15203d4d7c585173d",
+    "excerpt": [
+      "CString::operator=((CString *)(in_ECX + 2),(ushort *)u_HA_PD_Integ_Check_007a7000);",
+      "in_ECX[3] = 0x13c;",
+      "FUN_005473b0();",
+      "FUN_006e6f50(0,10);",
+      "FUN_00465ac0();"
+    ],
+    "scope": "Selected Ghidra static pseudocode lines. ETCAD_candidate_ labels were supplied by the caller; not original function names or runtime observation."
+  }
+]

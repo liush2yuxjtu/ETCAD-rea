@@ -1,0 +1,1 @@
+{"name":"rea","command":"/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node","args":["/workspace/work/rea-runtime/node_modules/.bin/rea","mcp"],"ok":true,"clients":[{"client":"codex","config_path":"/workspace/work/ETCAD-rea/.codex/config.toml","scope":"project","status":"configured"}]}

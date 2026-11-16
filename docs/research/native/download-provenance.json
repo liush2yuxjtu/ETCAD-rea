@@ -1,0 +1,19 @@
+{
+  "sourcePage": "https://www.etsystem.cn/News/detail.html?id=1039",
+  "downloadUrl": "https://download.etsystem.cn/ET_PSV.rar",
+  "archiveSha256": "28b001a8edf9e21385bc833ed448390c02547195a7facea6e3fff6a4f856a77e",
+  "archiveBytes": 21624599,
+  "extractedFiles": 407,
+  "analysisTarget": "ET_PSV/ET_学习版/ETCOM_PSV.exe",
+  "targetSha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+  "targetBytes": 5025792,
+  "embeddedFileVersion": [
+    2009,
+    1,
+    1,
+    0
+  ],
+  "note": "Version resource is an embedded declaration, not a proven release date; PE timestamp differs.",
+  "downloadedOn": "2026-11-16",
+  "evidenceKind": "official downloadable sample, static inspection"
+}

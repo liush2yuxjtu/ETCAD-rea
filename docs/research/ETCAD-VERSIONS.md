@@ -11,6 +11,7 @@
 | 名称 | 官方可证实的时间/地位 | 主要区别 | 依据 |
 | --- | --- | --- | --- |
 | ETCAD PRJ 线下版 | 厂商称从 2003 年服役，2022 年停止升级 | 本地文件体系，传统 PRJ 代际；现存版本/渠道号不能仅凭文件名判定 | [为什么需要升级 ETS，2022-12-13](https://www.etsystem.cn/News/detail.html?id=1159) |
+| ET 官方学习版 ET_PSV | 官网提供公开 RAR 包；本轮已下载、解包并静态分析 | 含 `ETCOM_PSV.exe`、`ETMark_PSV.exe`、DLL 和示例 PRJ。打板 EXE 声明文件版本 `2009.1.1.0`，不能据此认定包发布于 2009 年 | [官方下载页](https://www.etsystem.cn/News/detail.html?id=1039)；[原生取证记录](native/REA-ETCAD-ANALYSIS.md) |
 | ET2021 线下版本 | 官方 210629 更新明确使用“ET2021”名称 | 线下用户可通过正规服务商升级，以获得缝制模板功能 | [210629 更新](https://www.yuque.com/tqmbsl/izd1g6/lwpght) |
 | ETS 线下版 | 厂商说明于 2022 年正式推出 | 有锁离线、本地存储；数字密钥文件保护；参数化/部件化/框架化版型库；可自愿使用数据服务平台交换文件 | [ETS 版说明，2022-07-25](https://www.etsystem.cn/News/detail.html?id=1150) |
 | ETCAD 线上版 | 官方手册及 2021–2025 更新记录可证实 | 无锁联网；属于需安装的 CAD 客户端，与 ET 数据服务平台配套，不应误认为纯浏览器 CAD | [官方操作流程](https://www.yuque.com/tqmbsl/izd1g6/ie0vid)；[安装说明](https://www.yuque.com/tqmbsl/izd1g6/hog1vi)；[线上/线下区别](https://www.etsystem.cn/News/detail.html?id=1150) |
@@ -98,6 +99,8 @@
 可确认：PRJ/ETS/线上产品关系、官方使用的 ET2021 名称、手册目录中的 14 条更新、10 个年份系列的出处、相关模块及主要文件扩展名。
 
 尚未建立：厂商所有历史补丁/构建的完整注册表、各年款标签对应的原始二进制、Windows 签名/哈希、全部客户定制版及 2026 年最新构建。没有公开总表时，“找到所有版本”只能落实为上述可追溯的已发现目录，不能冒充全量发行史。
+
+补充取证已保存官方学习版压缩包与其中打板程序的 SHA-256，见 [download-provenance.json](native/download-provenance.json)。这只补齐该具体样本的身份，不代表其余历史年款已经取得或验证。
 
 ## 来源入口
 

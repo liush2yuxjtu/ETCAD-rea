@@ -1,0 +1,175 @@
+{
+  "parentReaEvidenceId": "ev_e537a92dd0cfa81ad9e6dd6e1ce9bb3a299381b553211ab05a1ca1b0c7be12ab",
+  "subjectSha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+  "scope": "Supplementary standard Win32 DLGTEMPLATE parsing from REA-inventoried bytes; static labels, not execution or detection rules.",
+  "resource": {
+    "index": 274,
+    "type": {
+      "kind": "id",
+      "id": 5
+    },
+    "name": {
+      "kind": "id",
+      "id": 505
+    },
+    "language": {
+      "kind": "id",
+      "id": 2052
+    },
+    "entry_locations": [
+      {
+        "offset": 3870776,
+        "bytes": 8
+      },
+      {
+        "offset": 3873128,
+        "bytes": 8
+      },
+      {
+        "offset": 3881784,
+        "bytes": 8
+      }
+    ],
+    "data_entry_location": {
+      "offset": 3892096,
+      "bytes": 16
+    },
+    "code_page": 0,
+    "reserved": 0,
+    "payload": {
+      "rva": 4103016,
+      "location": {
+        "offset": 4045672,
+        "bytes": 714
+      },
+      "sha256": "ca8742e30609019112f7c200861034b17e9c9aa1c0b6ac062265caa3b090018e"
+    }
+  },
+  "title": "综合检测",
+  "font": {
+    "points": 9,
+    "name": "宋体"
+  },
+  "declaredControlCount": 17,
+  "controls": [
+    {
+      "id": 1757,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "要素检测"
+    },
+    {
+      "id": 1729,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "显示检测结果"
+    },
+    {
+      "id": 1730,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "清除无效要素"
+    },
+    {
+      "id": 1758,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "刀口检测"
+    },
+    {
+      "id": 1731,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "显示检测结果"
+    },
+    {
+      "id": 1732,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "清除无效刀口"
+    },
+    {
+      "id": 1759,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "裁片检测"
+    },
+    {
+      "id": 1733,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "缝边连接检测结果"
+    },
+    {
+      "id": 1734,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "缝边刷新检测结果"
+    },
+    {
+      "id": 1735,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "裁片面积检测结果"
+    },
+    {
+      "id": 1736,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "裁片序号检测结果"
+    },
+    {
+      "id": 1737,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "重新检测计算"
+    },
+    {
+      "id": 1760,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "重点检测"
+    },
+    {
+      "id": 1738,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "显示检测结果"
+    },
+    {
+      "id": 1739,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "清除无效重点"
+    },
+    {
+      "id": 1804,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "[+]"
+    },
+    {
+      "id": 1740,
+      "class": {
+        "ordinal": 128
+      },
+      "text": "缝边宽度检测结果"
+    }
+  ]
+}

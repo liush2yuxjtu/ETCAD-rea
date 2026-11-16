@@ -1,10 +1,12 @@
 # ETCAD 功能证据与实现映射
 
-研究日期：2026-11-16（Asia/Shanghai）。对象为深圳市布易科技有限公司的 ET 服装 CAD。已读取 REA 源码仓库、ET 官网公开文章以及由官网指向的语雀操作文档。没有取得用户使用版本、安装包、运行中的 ET 客户端或原生纸样样本，因此下文的 ET 行为是**文档证据**，没有伪称二进制逆向或实机观察。
+研究日期：2026-11-16（Asia/Shanghai）。对象为深圳市布易科技有限公司的 ET 服装 CAD。本文记录第一轮公开文档分析及独立实现映射，当时未取得 ETCAD 二进制。
+
+**后续更新：** 已根据用户要求下载官方 `ET_PSV.rar` 学习版，在 VM 安装 REA 6.9.0、Ghidra 12.1.4 和完整 JDK，并建立真实 MCP 会话。原生证据和限制单列于 [REA MCP 二进制调查](native/REA-ETCAD-ANALYSIS.md)。以下原始文档结论没有被自动升级为运行时事实；本轮仍未运行 ETCAD Windows 界面。
 
 ## REA 的作用
 
-REA 的 README 说明它通过 MCP 或 CLI 检查 native、JavaScript/Electron、.NET 和网站等目标，再返回带证据与限制的结果。它是分析工具，**不是 ETCAD 应用**。本次读取固定版本 [morluto/rea@f14e9a1d](https://github.com/morluto/rea/tree/f14e9a1d282a7155c32f260730f5881d2c3e6c83)，工作流见 [reverse-engineer-anything](https://github.com/morluto/rea/blob/f14e9a1d282a7155c32f260730f5881d2c3e6c83/.agents/skills/reverse-engineer-anything/SKILL.md)。该工作流要求区分静态事实、运行时观察和未证实内容。本次没有 ETCAD artifact，故未运行 REA 分析命令，也没有修改用户的代理配置或安装反编译器。
+REA 的 README 说明它通过 MCP 或 CLI 检查 native、JavaScript/Electron、.NET 和网站等目标，再返回带证据与限制的结果。它是分析工具，**不是 ETCAD 应用**。读取的固定版本为 [morluto/rea@f14e9a1d](https://github.com/morluto/rea/tree/f14e9a1d282a7155c32f260730f5881d2c3e6c83)，工作流见 [reverse-engineer-anything](https://github.com/morluto/rea/blob/f14e9a1d282a7155c32f260730f5881d2c3e6c83/.agents/skills/reverse-engineer-anything/SKILL.md)。第一轮只有文档；第二轮才取得真实 artifact 并使用 REA MCP。两轮的证据层次保持分开。
 
 ## 新建纸样
 
@@ -41,15 +43,15 @@ ET 的参数化不是必须一开始用公式画图。官方说明采用“后�
 | 当前版本确认、修改锁定 | 独立设计；1042 仅提供只读排料的参考 | `submitReview` / `approveReview` / `reopenProject` | 意见阻止确认、确认后禁用编辑、刷新读回 |
 | 可重开文件与矢量输出 | 独立 JSON/SVG 格式 | `parseProject` / `exportSVG` | 实际下载、SVG 渲染、JSON 导入及刷新 |
 
-## 后续原生 ETCAD 验证路径
+## 后续原生 ETCAD 运行验证路径
 
-如需继续到内部实现层，先获得合法可用的具体版本/安装包及一组用户许可的样本。在受支持机器上记录产品名、About 版本、可执行文件路径和 SHA-256；用 REA 根据文件类型选择 native/managed/JavaScript 检查。随后在 ET 中完成“空白文件→线框→提取裁片→属性/纱向→保存→修改点/曲线→测量/检测→重新打开”的受控样例，保存操作录像、前后文件哈希、静态证据与运行时证据。没有这些材料前，不把公开文档推断升级为内部算法结论。
+第二轮已取得官方学习版及包内示例 PRJ，完成 SHA-256 身份记录和 REA MCP 静态检查。下一层运行验证仍需受支持的 Windows 环境，记录产品名与 About 版本，再在 ET 中完成“空白文件→线框→提取裁片→属性/纱向→保存→修改点/曲线→测量/检测→重新打开”的受控样例，保存操作录像、前后文件哈希，并与现有静态 Evidence 对照。未执行的步骤继续保持未验证。
 
 安装入口由 [官方安装文档](https://www.yuque.com/tqmbsl/izd1g6/hog1vi) 给出：登录 ET 数据服务平台，在“技术支持”选择线上版本安装包。当前工作不包含替用户注册、购买或绕过授权。
 
 ## 取证记录
 
-- REA 固定源码：`f14e9a1d282a7155c32f260730f5881d2c3e6c83`；未执行其中程序。
+- 第一轮 REA 固定源码：`f14e9a1d282a7155c32f260730f5881d2c3e6c83`；当时只阅读。第二轮实际安装并运行官方 `rea-agents@6.9.0` MCP，见原生调查。
 - ET 文章从官网 HTML 引用的 `/_js/news/findArticleById.ashx` 公共读取接口获取，POST 字段为 `id` 与 `lang=0`，仅用于读取公开文章。网页本体为空壳时，不能当成“无内容”。
 - 官方教程页指向语雀手册，证明手册与厂商的来源关系：[文章 1164](https://www.etsystem.cn/News/detail.html?id=1164)。
 - 官网深层页面的 Firecrawl 抓取失败后，使用本环境 HTTP 客户端读取了同一公开页面；语雀使用 Firecrawl 读取。原始响应保留在研究工作目录，仓库只保存必要引文、来源、摘要及哈希，避免整篇转载。

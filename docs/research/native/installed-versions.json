@@ -1,0 +1,8 @@
+{
+  "rea": "6.9.0",
+  "reaRegistryIntegrity": "sha512-KqDn1UR5BMqHoQ3MGAnPuWiSKwgdFaz1L/uUNgrKt+1W8kPtgYP8AWEOXIF1lDIOBVyPuYIIst2iamo1Wf3r8g==",
+  "ghidra": "12.1.4",
+  "ghidraZipSha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+  "jdk": "Temurin 21.0.13+9",
+  "jdkTarSha256": "d7f5d5cf865a2902b70ff549b97586a7d3f234e016f041ab447ea740c7d66d1c"
+}

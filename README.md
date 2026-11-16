@@ -1,6 +1,6 @@
 # ETCAD-rea 中文纸样工作台
 
-面向中文用户的独立二维服装纸样工具：**新建 → 编辑 → 尺寸核对 → 送审 → 确认**。依据 ETCAD 公开手册与官方更新记录实现；没有声称已分析 ETCAD 二进制或复制其内部算法。
+面向中文用户的独立二维服装纸样工具：**新建 → 编辑 → 尺寸核对 → 送审 → 确认**。应用使用独立实现；研究现包含公开手册和通过 REA MCP 对官方学习版二进制的静态取证。静态取证不等于已经运行 ETCAD 的 Windows 界面。
 
 ![中文纸样工作台](docs/verification/01-workbench.png)
 
@@ -32,6 +32,7 @@ npm start
 - [ETCAD 版本与更新目录](docs/research/ETCAD-VERSIONS.md)：官方产品代际、14 条官方更新、第三方历史年款名称、来源及覆盖边界。
 - 可下载的五页文档：[Word](docs/research/ETCAD-Versions.docx) · [PDF](docs/research/ETCAD-Versions.pdf)。
 - [ETCAD 功能证据与实现映射](docs/research/ETCAD-EVIDENCE.md)：新建、编辑、测量检查及审版的证据，逐项区分文档事实和本项目设计。
+- [REA MCP 原生二进制调查](docs/research/native/REA-ETCAD-ANALYSIS.md)：官方下载、哈希、真实 MCP 连接、Ghidra 静态结果和操作边界。
 - [机器可读更新目录](docs/research/releases.json)。
 - [真实运行验证](docs/verification/VERIFICATION.md)。
 

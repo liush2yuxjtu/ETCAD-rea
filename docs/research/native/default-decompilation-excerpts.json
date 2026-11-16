@@ -1,0 +1,62 @@
+[
+  {
+    "evidenceId": "ev_3a9954535ca0bc4a852cab6c1ae3cea8793c4b576e5182267bf84f7cc2a2a5ef",
+    "operation": "procedure_pseudo_code",
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "procedure": "FUN_00611030"
+    },
+    "excerpt": [
+      "*in_ECX = &PTR_LAB_007522a0;",
+      "CString::operator=((CString *)(in_ECX + 2),(ushort *)u_HA_PD_Tangent_Spline_Edition_007a567c);",
+      "in_ECX[3] = 0x169;"
+    ],
+    "scope": "Selected static pseudocode lines; not recovered original source or runtime observation."
+  },
+  {
+    "evidenceId": "ev_55cecb954ba7281ac4819a43c75b808e3d0387164b9be1c74e1099ec7afade1a",
+    "operation": "procedure_pseudo_code",
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "procedure": "FUN_0060e490"
+    },
+    "excerpt": [
+      "*in_ECX = &PTR_LAB_007521e0;",
+      "CString::operator=((CString *)(in_ECX + 2),(ushort *)u_HA_PD_Find_Closed_Pattern_007a53cc);",
+      "pvVar1 = operator_new(0x138);",
+      "in_ECX[3] = 0x163;"
+    ],
+    "scope": "Selected static pseudocode lines; not recovered original source or runtime observation."
+  },
+  {
+    "evidenceId": "ev_df4e0d24ad8d51ed433e6d15e00fd1f30149aa93136d1ddbd70a16d8f25a7627",
+    "operation": "procedure_pseudo_code",
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "procedure": "FUN_0042f350"
+    },
+    "excerpt": [
+      "CDialog::OnInitDialog(in_ECX);",
+      "mgRefreshDlgText(pHVar2,(ushort *)u_HA_Integ_Check_Dlg_cpp_0079ad64);",
+      "pCVar3 = CWnd::GetDlgItem((CWnd *)in_ECX,0x6c1);",
+      "CWnd::EnableWindow(pCVar3,0);",
+      "pCVar3 = CWnd::GetDlgItem((CWnd *)in_ECX,0x6c2);",
+      "pCVar3 = CWnd::GetDlgItem((CWnd *)in_ECX,0x6c1);",
+      "CWnd::EnableWindow(pCVar3,1);",
+      "pCVar3 = CWnd::GetDlgItem((CWnd *)in_ECX,0x6c2);"
+    ],
+    "scope": "Selected static pseudocode lines; not recovered original source or runtime observation."
+  }
+]

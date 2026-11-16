@@ -1,0 +1,135 @@
+{
+  "note": "Supplementary candidate MFC-style message-map scan; handlers require REA decompilation to corroborate.",
+  "imageBase": 4194304,
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "size": 3387392,
+      "offset": 4096,
+      "virtualSize": 3386610
+    },
+    {
+      "name": ".rdata",
+      "rva": 3391488,
+      "size": 364544,
+      "offset": 3391488,
+      "virtualSize": 363876
+    },
+    {
+      "name": ".data",
+      "rva": 3756032,
+      "size": 114688,
+      "offset": 3756032,
+      "virtualSize": 168368
+    },
+    {
+      "name": ".rsrc",
+      "rva": 3928064,
+      "size": 1155072,
+      "offset": 3870720,
+      "virtualSize": 1154160
+    }
+  ],
+  "candidates": [
+    {
+      "commandId": 57600,
+      "label": "new-document",
+      "mapFileOffset": 3452488,
+      "mapAddress": "0x74ae48",
+      "signature": 12,
+      "candidateHandler": "0x6fdeca",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 32794,
+      "label": "curve-edit",
+      "mapFileOffset": 3455712,
+      "mapAddress": "0x74bae0",
+      "signature": 12,
+      "candidateHandler": "0x487670",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 32852,
+      "label": "extract-piece",
+      "mapFileOffset": 3458064,
+      "mapAddress": "0x74c410",
+      "signature": 12,
+      "candidateHandler": "0x488090",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 32846,
+      "label": "refresh-seams",
+      "mapFileOffset": 3457776,
+      "mapAddress": "0x74c2f0",
+      "signature": 12,
+      "candidateHandler": "0x487da0",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 32828,
+      "label": "seam-width",
+      "mapFileOffset": 3457200,
+      "mapAddress": "0x74c0b0",
+      "signature": 12,
+      "candidateHandler": "0x487b90",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 33250,
+      "label": "piece-properties",
+      "mapFileOffset": 3459960,
+      "mapAddress": "0x74cb78",
+      "signature": 12,
+      "candidateHandler": "0x488b90",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 33211,
+      "label": "size-table",
+      "mapFileOffset": 3458592,
+      "mapAddress": "0x74c620",
+      "signature": 12,
+      "candidateHandler": "0x4882c0",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 33242,
+      "label": "fit-check",
+      "mapFileOffset": 3459792,
+      "mapAddress": "0x74cad0",
+      "signature": 12,
+      "candidateHandler": "0x488280",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 33410,
+      "label": "two-point-fit-check",
+      "mapFileOffset": 3465096,
+      "mapAddress": "0x74df88",
+      "signature": 12,
+      "candidateHandler": "0x488150",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 34026,
+      "label": "safety-check",
+      "mapFileOffset": 3465792,
+      "mapAddress": "0x74e240",
+      "signature": 12,
+      "candidateHandler": "0x48a240",
+      "handlerSection": ".text"
+    },
+    {
+      "commandId": 33321,
+      "label": "piece-info",
+      "mapFileOffset": 3462288,
+      "mapAddress": "0x74d490",
+      "signature": 12,
+      "candidateHandler": "0x4895a0",
+      "handlerSection": ".text"
+    }
+  ]
+}

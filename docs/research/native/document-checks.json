@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-16",
+  "scope": "Documentation/artifact checks; application runtime unchanged. MCP runtime evidence is recorded separately.",
+  "originalApplicationSourceFilesMatching": 9,
+  "originalCopiedVerifyFilesMatching": 9,
+  "localMarkdownLinksChecked": 66,
+  "brokenLocalMarkdownLinks": 0,
+  "wordTables": 5,
+  "wordHyperlinks": 34,
+  "pdfPages": 5,
+  "renderInspection": "All five PDF pages inspected as rendered PNGs; Chinese text, learning-edition row, repeated headers and table bounds are legible.",
+  "gitDiffCheck": "PASS",
+  "applicationRuntimeTestsThisRound": "SKIP: exact source hashes unchanged; prior 8 tests and 12 browser scenarios retained.",
+  "artifacts": {
+    "docs/research/ETCAD-Versions.docx": "1180bfdac5fcf1c3d87b94d678cb23c0f2f381185d35f160fcf4e6b771cde2b7",
+    "docs/research/ETCAD-Versions.pdf": "903b8bbe5923b2951a4c09067ca5b2aa2a3449035bba8a359c0ba7b03c002276"
+  }
+}

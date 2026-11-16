@@ -1,0 +1,50 @@
+{
+  "package": {
+    "name": "rea-agents",
+    "version": "6.9.0",
+    "root_path": "/workspace/work/rea-runtime/node_modules/rea-agents",
+    "build_commit": null
+  },
+  "server": {
+    "name": "rea",
+    "version": "6.9.0",
+    "started_at": "2026-11-16T04:32:01.821Z",
+    "command_path": "/workspace/work/rea-runtime/node_modules/.bin/rea"
+  },
+  "sdk": {
+    "server": "2.3.1",
+    "client_test": "2.3.1",
+    "core": "2.3.1"
+  },
+  "negotiated_protocol_version": "2025-03-26",
+  "client": {
+    "name": "etcad-rea-investigation",
+    "version": "0.1.0"
+  },
+  "skill": {
+    "name": "reverse-engineer-anything",
+    "expected_version": "62"
+  },
+  "catalog": {
+    "counts": {
+      "cli_commands": 196,
+      "mcp_tools": 255,
+      "mcp_prompts": 6
+    },
+    "digests": {
+      "tools_sha256": "b3054fab57a222a4690d93cdba88805d7cbd2e6c0279dd596eecf213030c3797",
+      "prompts_sha256": "60078bd8ef8bd152b51440e7579fba2059beec18fec5148dd0ec10ef013213fe",
+      "combined_sha256": "2c725b48818ac5266198069330907c657f0fa2b6b8236065e5a191e20d95c2d7"
+    }
+  },
+  "protocol_features": {
+    "progress": true,
+    "cancellation": true,
+    "elicitation": false
+  },
+  "alignment": {
+    "state": "aligned",
+    "reasons": [],
+    "remediation": null
+  }
+}

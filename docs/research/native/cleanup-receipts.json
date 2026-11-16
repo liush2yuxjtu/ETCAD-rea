@@ -1,0 +1,76 @@
+{
+  "close": {
+    "result": {
+      "_meta": {
+        "provenance": {
+          "untrusted_content": true,
+          "source": "analysis_target"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"result\":null}"
+        }
+      ],
+      "structuredContent": {
+        "result": null
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 22
+  },
+  "checkpointAndReset": {
+    "result": {
+      "_meta": {
+        "provenance": {
+          "untrusted_content": true,
+          "source": "analysis_target"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"result\":{\"cleared_evidence_records\":16,\"cleared_unknown_revisions\":0,\"cleared_unknown_heads\":0,\"retained_target\":false,\"saved_bundle\":{\"path\":\"/workspace/work/rea-runtime/mcp-seeded-evidence/final-investigation.json\",\"bytes\":186450,\"records\":16,\"unknowns\":0}}}"
+        }
+      ],
+      "structuredContent": {
+        "result": {
+          "cleared_evidence_records": 16,
+          "cleared_unknown_revisions": 0,
+          "cleared_unknown_heads": 0,
+          "retained_target": false,
+          "saved_bundle": {
+            "path": "/workspace/work/rea-runtime/mcp-seeded-evidence/final-investigation.json",
+            "bytes": 186450,
+            "records": 16,
+            "unknowns": 0
+          }
+        }
+      }
+    },
+    "jsonrpc": "2.0",
+    "id": 23
+  },
+  "finalSessionProjection": {
+    "open": false,
+    "investigation": {
+      "evidence_records": 0,
+      "unknown_revisions": 0,
+      "unknown_heads": 0,
+      "retained_representation_bytes": 0,
+      "maximum_representation_bytes": 1087323586,
+      "persistence": "memory"
+    },
+    "cleanup_pending": false,
+    "analysis_provider_binding": null,
+    "analysis_run": null
+  },
+  "finalSessionRawSha256": "b24a9107f83a475c25a680eff34bdc212099ca899057d53fb119ffb50988dd1a",
+  "savedBundle": {
+    "file": "final-investigation.json",
+    "bytes": 186450,
+    "sha256": "7177927ce746c4510a3519100427766c4965dd1dbaa591bfdb5576b61aac847d"
+  },
+  "clientExit": "MCP CLOSED; process exit code 0"
+}
