@@ -1,0 +1,8 @@
+{
+  "tools/agentbay/Deploy-Learning.ps1": "35e5ca16175138bd9a5e0f226573550e35aeedcd7650ce9a803d9cae49ea9e02",
+  "tools/agentbay/check.py": "06d41488e6ee239f59611f98ef28fce1e2a6fc2ee72a26fc17136489c9cb48d4",
+  "tools/agentbay/cloud.py": "0dfd7bc242b58f878b3f0e3e0bf596e4d449640334af273d59f9e4466b4f54c3",
+  "tools/agentbay/prepare.py": "af3cc07f47a4fe623c28c184891a8db5fb73b164b1c0e82280d33f6865e7afc9",
+  "tools/agentbay/requirements.txt": "90714b65a117581d4cde65bc2f980601f535f6b4fc459533a84bc46159a26a06",
+  "tools/agentbay/save_key.py": "d85e38315c4b9a95b98dc7c63ae279217a83dc0fb8ecd08c508570e630d53b48"
+}

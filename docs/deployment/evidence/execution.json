@@ -1,0 +1,58 @@
+{
+  "utc": "2026-11-16T09:40:06.624894+00:00",
+  "china_time": "2026-11-16T17:40:06.624894+08:00",
+  "verdict": "BLOCKED",
+  "claim": "Original ETCAD Windows new/open/edit/check/save/reopen through AgentBay",
+  "account_observation": {
+    "private_aliyun_api_discovery": "UNAUTHORIZED: This app connection requires reauthentication. Reconnect the app and try again.",
+    "agentbay_api_key_present": false,
+    "explicit_key_file_present": false,
+    "browser_connector_fallback": "UNAVAILABLE: connection failed; no browser page was changed"
+  },
+  "cloud_sessions_created": 0,
+  "agentbay_desktop_compute_charges": 0,
+  "native_gui": "NOT_RUN",
+  "save_reopen": "NOT_RUN",
+  "vercel_original_deployments_created": 0,
+  "checks": {
+    "python_compile": {
+      "exit_code": 0,
+      "files": 4
+    },
+    "local_mcp_protocol": {
+      "exit_code": 0,
+      "tools": 12,
+      "cloud_create_without_key": "isError; blocked before SDK create"
+    },
+    "project_registered_launcher_used": true,
+    "powershell_syntax": {
+      "runtime": "PowerShell 7.7.0 Linux x64",
+      "parse_errors": 0,
+      "windows_execution": "NOT_RUN"
+    },
+    "powershell_wrong_host_guard": {
+      "exit_code": 1,
+      "expected": "A real Windows host is required."
+    },
+    "reproduced_payload_identical": true,
+    "pinned_inventory_sha256": "f5784b07f648b7605e96c979666e1d586d878910de91eede411e3599466a0d9e",
+    "official_sdk_wheel_sha256": "af9a3f5fd28ab9ff9be3fc7566fa78024f0cf5bf13577548326e8dd4ad50daab",
+    "installed_sdk_python_files_match_wheel": 252,
+    "npm_test": {
+      "exit_code": 0,
+      "passed": 8,
+      "failed": 0
+    },
+    "npm_run_check": {
+      "exit_code": 0
+    },
+    "unchanged_web_source_hashes": 9,
+    "original_verify_files_unchanged": 9
+  },
+  "cleanup": {
+    "mcp_children": "exited at EOF, exit 0",
+    "cloud": "no session created; no cloud resource to release",
+    "private_payloads": "retained outside Git for the next authorized run",
+    "global_codex_configuration": "unchanged"
+  }
+}

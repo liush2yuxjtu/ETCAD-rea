@@ -1,0 +1,9 @@
+{
+  "payload_sha256": "9d89d57e229926985473089e21d8e6120cd4819c5b53673521c6249f22ef95a1",
+  "payload_bytes": 22579969,
+  "original_archive_files": 407,
+  "app_files": 242,
+  "original_exe_sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+  "source_archive_sha256": "28b001a8edf9e21385bc833ed448390c02547195a7facea6e3fff6a4f856a77e",
+  "note": "Private repack; every application file is unmodified. No app was executed."
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "BLOCKED",
+  "scope": "Original ETCAD native Windows acceptance",
+  "reason": "No AgentBay API key / authorized Windows session attached",
+  "supporting_checks": [
+    {
+      "check": "installed SDK contracts and finite cloud lifecycle",
+      "passed": true
+    },
+    {
+      "check": "real private payload: every file and original EXE hash",
+      "passed": true,
+      "payload_sha256": "9d89d57e229926985473089e21d8e6120cd4819c5b53673521c6249f22ef95a1",
+      "app_files": 242,
+      "original_exe_sha256": "a2c0df89a37d064b3c00b975a7e0cca68c3b2ad17a5e920d9fddc0ac3daa0aba",
+      "original_archive_sha256": "28b001a8edf9e21385bc833ed448390c02547195a7facea6e3fff6a4f856a77e"
+    },
+    {
+      "check": "reject tampered EXE, traversal and Windows command overflow",
+      "passed": true
+    },
+    {
+      "check": "explicit private key file, redacted evidence, refuse non-terminal key entry",
+      "passed": true
+    },
+    {
+      "check": "real stdio initialize/list/plan/missing-key guard/input guard/EOF",
+      "passed": true,
+      "tool_count": 12,
+      "exit_code": 0
+    }
+  ],
+  "cloud_sessions_created": 0,
+  "cloud_charges_incurred": 0,
+  "native_gui": "NOT_RUN",
+  "save_reopen": "NOT_RUN"
+}

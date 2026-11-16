@@ -17,6 +17,7 @@
     "references/etcad-rea.md",
     "references/rea-native.md",
     "references/rea-wasm.md",
+    "references/rea-agentbay-windows.md",
     "SOURCE.json"
   ]
 }

@@ -1,0 +1,273 @@
+[
+  {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "protocolVersion": "2025-03-26",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "etcad-agentbay-windows",
+        "version": "0.1.0"
+      }
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 2,
+    "result": {
+      "tools": [
+        {
+          "name": "cloud_plan",
+          "description": "Read readiness and cost notes. Does not create a session.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "cloud_create",
+          "description": "Create ONE billable Windows session, idle release 5 min, maximum 30 min. No paid plan upgrade.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "cloud_deploy",
+          "description": "Upload the private official package, verify every file, launch the unchanged original EXE.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_screenshot",
+          "description": "Capture actual Windows desktop pixels; save PNG and return image. Not a GUI PASS.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_windows",
+          "description": "List real Windows desktop windows and process IDs.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_click",
+          "description": "Real native mouse click.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              },
+              "y": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              },
+              "button": {
+                "type": "string",
+                "enum": [
+                  "left",
+                  "right",
+                  "double_left"
+                ]
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_drag",
+          "description": "Real native mouse drag.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "from_x": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              },
+              "from_y": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              },
+              "to_x": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              },
+              "to_y": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 32768
+              }
+            },
+            "required": [
+              "from_x",
+              "from_y",
+              "to_x",
+              "to_y"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_keys",
+          "description": "Press native Windows keys; use the current SDK key names.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "keys": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "maxItems": 10
+              }
+            },
+            "required": [
+              "keys"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "desktop_type",
+          "description": "Type Unicode text into the active native control.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "maxLength": 4000
+              }
+            },
+            "required": [
+              "text"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "windows_powershell",
+          "description": "Run a bounded diagnostic command inside this Windows session; keep original EXE unchanged.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "script": {
+                "type": "string",
+                "maxLength": 2400
+              }
+            },
+            "required": [
+              "script"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "collect_project",
+          "description": "Read a saved file beneath this run's app directory into private local evidence; record SHA-256.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false
+          }
+        },
+        {
+          "name": "cloud_stop",
+          "description": "Delete this bridge's session and save its cleanup receipt.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 3,
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"verdict\": \"BLOCKED\", \"native_gui\": \"NOT_RUN\", \"sdk_installed\": \"0.22.3\", \"sdk_required\": \"0.22.3\", \"api_key_present\": false, \"payload_present\": true, \"region\": \"cn-hangzhou\", \"requested_image\": \"windows_latest\", \"lifecycle_minutes\": {\"idle_release_timeout\": 5, \"max_runtime\": 30}, \"billing\": \"CPU/memory are usage-billed even on Basic. No subscription purchase by this tool.\", \"session_id\": null, \"evidence_directory\": \"/tmp/tmpuzel_h9g/protocol/run-20261116T093830Z-011809\", \"note\": \"windows_latest is mutable. Record Windows build; prefer a fixed authorized image for repeat runs.\"}"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 4,
+    "result": {
+      "isError": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "BLOCKED: set AGENTBAY_API_KEY as a private environment secret; do not paste it in chat"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 5,
+    "result": {
+      "isError": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "Invalid screen coordinate"
+        }
+      ]
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "id": 6,
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"stage\": \"NO_OWNED_SESSION\"}"
+        }
+      ]
+    }
+  }
+]

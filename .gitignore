@@ -8,3 +8,9 @@ __pycache__/
 # VM-local MCP launch paths; installation and evidence are documented separately
 .codex/config.toml
 .codex/config.toml.*
+
+# Private cloud session URLs, credentials, vendor payloads and SDK logs
+.agentbay/
+agentbay.log*
+agentbay-key*
+et-learning-private.zip

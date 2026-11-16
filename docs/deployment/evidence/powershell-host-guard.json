@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/workspace/work/agentbay-runtime/pwsh/pwsh",
+    "-NoProfile",
+    "-NonInteractive",
+    "-File",
+    "/workspace/work/ETCAD-rea/tools/agentbay/Deploy-Learning.ps1",
+    "-Archive",
+    "/workspace/work/agentbay-runtime/official-payload/et-learning-private.zip",
+    "-ExpectedArchiveSha256",
+    "9d89d57e229926985473089e21d8e6120cd4819c5b53673521c6249f22ef95a1"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Exception: /workspace/work/ETCAD-rea/tools/agentbay/Deploy-Learning.ps1:8\nLine |\n   8 |  \u2026 env:OS -ne 'Windows_NT') { throw 'A real Windows host is required.' }\n     |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n     | A real Windows host is required.\n",
+  "expected_result": "Refuse execution on Linux",
+  "native_windows_execution": "NOT_RUN"
+}

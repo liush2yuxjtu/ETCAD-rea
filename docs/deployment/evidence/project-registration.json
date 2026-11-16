@@ -1,0 +1,42 @@
+{
+  "scope": "project-local",
+  "config": "/workspace/work/ETCAD-rea/.codex/config.toml",
+  "mcp_server": {
+    "command": "/workspace/work/agentbay-runtime/venv/bin/python",
+    "args": [
+      "/workspace/work/ETCAD-rea/tools/agentbay/cloud.py",
+      "--serve",
+      "--payload",
+      "/workspace/work/agentbay-runtime/official-payload/et-learning-private.zip",
+      "--run-dir",
+      "/workspace/work/agentbay-runtime/runs",
+      "--region",
+      "cn-hangzhou",
+      "--image",
+      "windows_latest",
+      "--key-file",
+      "/workspace/work/agentbay-runtime/agentbay-key"
+    ],
+    "startup_timeout_sec": 30,
+    "tool_timeout_sec": 600
+  },
+  "real_initialize": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "protocolVersion": "2025-03-26",
+      "capabilities": {
+        "tools": {}
+      },
+      "serverInfo": {
+        "name": "etcad-agentbay-windows",
+        "version": "0.1.0"
+      }
+    }
+  },
+  "tool_count": 12,
+  "missing_key_create_blocked": true,
+  "exit_code": 0,
+  "native_windows": "NOT_RUN",
+  "chat_hot_reload": false
+}
